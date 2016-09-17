@@ -1,0 +1,8 @@
+POST /templates/api/list.json?ca=12_s&zipcode=92000,92130&city=Nanterre,Issy-les-Moulineaux&w=1&c=10&f=a&ros=2&sqs=3&mre=1000&mrs=0&sqe=16&roe=999999&ret=1&ret=2&o=1&q=Jardin&sp=0&pivot=0,0,0 HTTP/1.1
+User-Agent: fr.leboncoin.android , Sony D5803 , 6.0.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 157
+Host: mobile.leboncoin.fr
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

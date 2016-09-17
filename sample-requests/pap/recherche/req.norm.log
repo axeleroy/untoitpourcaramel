@@ -1,0 +1,7 @@
+GET /immobilier/annonces?recherche[produit]=location&recherche[prix][max]=1000&recherche[surface][min]=30&recherche[typesbien][]=maison&recherche[typesbien][]=appartement&recherche[geo][ids][]=43265&order=date-desc&size=200&page=1 HTTP/1.1
+X-Device-Gsf: 36049adaf18ade77
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; D5803 Build/MOB30M.Z1)
+Host: ws.pap.fr
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

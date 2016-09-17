@@ -1,0 +1,647 @@
+{
+				
+				"total": "50",
+				"search_total": "50"
+                
+                ,
+				"paging_last":"1004753778,1470987328,1000",
+				"numperpage": "20",
+				
+				"lastpagenumber": "3",
+				
+				"private_ads": "27",
+				"company_ads": "23",
+				"ads":
+								[
+					
+						{
+							"url": "https://www.leboncoin.fr/vi/1012954685.htm?ca=12_s&amp;w=1",
+							"list_id": "1012954685",
+							"list_time": "2016-09-01 07:59:31",
+							"date": "1 sept 07:59",
+							"price": "995","price_range_formatted": "995&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 56 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img2.leboncoin.fr/thumbs/1aa/1aa1d57aea8c4b00c1b888ef1a1cd23ce5d4f914.jpg","thumb_hd": "http://img2.leboncoin.fr/images/1aa/1aa1d57aea8c4b00c1b888ef1a1cd23ce5d4f914.jpg",
+									"image_count": "4",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1013325194.htm?ca=12_s&amp;w=1",
+							"list_id": "1013325194",
+							"list_time": "2016-09-01 07:16:53",
+							"date": "1 sept 07:16",
+							"price": "950","price_range_formatted": "950&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 41 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img3.leboncoin.fr/thumbs/883/883bd644042eb6bf5668f38c6b9fa3dfba4db82d.jpg","thumb_hd": "http://img3.leboncoin.fr/images/883/883bd644042eb6bf5668f38c6b9fa3dfba4db82d.jpg",
+									"image_count": "7",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1012907059.htm?ca=12_s&amp;w=1",
+							"list_id": "1012907059",
+							"list_time": "2016-08-31 15:38:45",
+							"date": "31 ao&ucirc;t 15:38",
+							"price": "980","price_range_formatted": "980&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 3 pi&egrave;ces 38 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img7.leboncoin.fr/thumbs/1b2/1b25ea8e5b89422590c98da1ed49ce1e28c9e355.jpg","thumb_hd": "http://img7.leboncoin.fr/images/1b2/1b25ea8e5b89422590c98da1ed49ce1e28c9e355.jpg",
+									"image_count": "9",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1003057816.htm?ca=12_s&amp;w=1",
+							"list_id": "1003057816",
+							"list_time": "2016-08-31 11:07:23",
+							"date": "31 ao&ucirc;t 11:07",
+							"price": "1 000","price_range_formatted": "1 000&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "30 M2, charme, calme, tr&eacute;s bon &eacute;tat, fonctionnel",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img4.leboncoin.fr/thumbs/c4d/c4d833f330b44cffe63fd147f0cc4c904898f232.jpg","thumb_hd": "http://img4.leboncoin.fr/images/c4d/c4d833f330b44cffe63fd147f0cc4c904898f232.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1012208826.htm?ca=12_s&amp;w=1",
+							"list_id": "1012208826",
+							"list_time": "2016-08-30 15:53:56",
+							"date": "30 ao&ucirc;t 15:53",
+							"price": "985","price_range_formatted": "985&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "2 Pi&egrave;ces avec petit jardin",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img3.leboncoin.fr/thumbs/fc3/fc3e14c36cda46c19a30771d0390aebc0b572f86.jpg","thumb_hd": "http://img3.leboncoin.fr/images/fc3/fc3e14c36cda46c19a30771d0390aebc0b572f86.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1011587290.htm?ca=12_s&amp;w=1",
+							"list_id": "1011587290",
+							"list_time": "2016-08-29 12:46:54",
+							"date": "29 ao&ucirc;t 12:46",
+							"price": "980","price_range_formatted": "980&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "2 pi&egrave;ces 32 m&sup2; avec jardin",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img1.leboncoin.fr/thumbs/52e/52e35e16e908f8b1a6d90cecd210e67c85898d85.jpg","thumb_hd": "http://img1.leboncoin.fr/images/52e/52e35e16e908f8b1a6d90cecd210e67c85898d85.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1010189156.htm?ca=12_s&amp;w=1",
+							"list_id": "1010189156",
+							"list_time": "2016-08-25 07:54:19",
+							"date": "25 ao&ucirc;t 07:54",
+							"price": "890","price_range_formatted": "890&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 36 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img5.leboncoin.fr/thumbs/c06/c06e3a719c859b91907215b163c4968890ffe993.jpg","thumb_hd": "http://img5.leboncoin.fr/images/c06/c06e3a719c859b91907215b163c4968890ffe993.jpg",
+									"image_count": "6",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1009481598.htm?ca=12_s&amp;w=1",
+							"list_id": "1009481598",
+							"list_time": "2016-08-24 12:16:23",
+							"date": "24 ao&ucirc;t 12:16",
+							"price": "400","price_range_formatted": "400&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Loue une chambre quelques mois",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"extra_images": "0",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1009202497.htm?ca=12_s&amp;w=1",
+							"list_id": "1009202497",
+							"list_time": "2016-08-23 18:01:24",
+							"date": "23 ao&ucirc;t 18:01",
+							"price": "950","price_range_formatted": "950&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Nanterre beau 2 pi&egrave;ces, 15min en bus de la d&eacute;fense",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img7.leboncoin.fr/thumbs/b6c/b6ccba27e2550d426fc361260fe632c8b54f9ee8.jpg","thumb_hd": "http://img7.leboncoin.fr/images/b6c/b6ccba27e2550d426fc361260fe632c8b54f9ee8.jpg",
+									"image_count": "2",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1009184549.htm?ca=12_s&amp;w=1",
+							"list_id": "1009184549",
+							"list_time": "2016-08-23 17:31:25",
+							"date": "23 ao&ucirc;t 17:31",
+							"price": "600","price_range_formatted": "600&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Colloc Nanterre universit&eacute;",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img5.leboncoin.fr/thumbs/764/764c9c73b87640ff61b9a306d009ba1536274967.jpg","thumb_hd": "http://img5.leboncoin.fr/images/764/764c9c73b87640ff61b9a306d009ba1536274967.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1008673592.htm?ca=12_s&amp;w=1",
+							"list_id": "1008673592",
+							"list_time": "2016-08-22 16:37:59",
+							"date": "22 ao&ucirc;t 16:37",
+							"price": "1 000","price_range_formatted": "1 000&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Loue meubl&eacute; refait &agrave; neuf &#45; 41m2 &#45; Nanterre",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img7.leboncoin.fr/thumbs/ac9/ac904da75f3f0100b93bee5ae514c43b9fc05dbb.jpg","thumb_hd": "http://img7.leboncoin.fr/images/ac9/ac904da75f3f0100b93bee5ae514c43b9fc05dbb.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/965797484.htm?ca=12_s&amp;w=1",
+							"list_id": "965797484",
+							"list_time": "2016-08-20 12:48:34",
+							"date": "20 ao&ucirc;t 12:48",
+							"price": "820","price_range_formatted": "820&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 30 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img3.leboncoin.fr/thumbs/678/67817e07be76516513f754ab0e70bf8a60363a9f.jpg","thumb_hd": "http://img3.leboncoin.fr/images/678/67817e07be76516513f754ab0e70bf8a60363a9f.jpg",
+									"image_count": "6",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1007537347.htm?ca=12_s&amp;w=1",
+							"list_id": "1007537347",
+							"list_time": "2016-08-20 08:48:16",
+							"date": "20 ao&ucirc;t 08:48",
+							"price": "910","price_range_formatted": "910&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 47 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img4.leboncoin.fr/thumbs/cf1/cf1eadf6729014507b69b947ffe7bd5d88ac7445.jpg","thumb_hd": "http://img4.leboncoin.fr/images/cf1/cf1eadf6729014507b69b947ffe7bd5d88ac7445.jpg",
+									"image_count": "5",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1007436583.htm?ca=12_s&amp;w=1",
+							"list_id": "1007436583",
+							"list_time": "2016-08-19 13:02:36",
+							"date": "19 ao&ucirc;t 13:02",
+							"price": "950","price_range_formatted": "950&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 43 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img2.leboncoin.fr/thumbs/012/012a51adfeda59113095c73a58fba7aa5322ea9a.jpg","thumb_hd": "http://img2.leboncoin.fr/images/012/012a51adfeda59113095c73a58fba7aa5322ea9a.jpg",
+									"image_count": "5",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1007184537.htm?ca=12_s&amp;w=1",
+							"list_id": "1007184537",
+							"list_time": "2016-08-19 12:32:33",
+							"date": "19 ao&ucirc;t 12:32",
+							"price": "990","price_range_formatted": "990&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Neuf",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img6.leboncoin.fr/thumbs/001/0017069d26e09e19a2a216a7975054e01f4fd701.jpg","thumb_hd": "http://img6.leboncoin.fr/images/001/0017069d26e09e19a2a216a7975054e01f4fd701.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1006678162.htm?ca=12_s&amp;w=1",
+							"list_id": "1006678162",
+							"list_time": "2016-08-18 07:48:37",
+							"date": "18 ao&ucirc;t 07:48",
+							"price": "921","price_range_formatted": "921&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 41 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"extra_images": "0",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1006553188.htm?ca=12_s&amp;w=1",
+							"list_id": "1006553188",
+							"list_time": "2016-08-17 21:05:07",
+							"date": "17 ao&ucirc;t 21:05",
+							"price": "750","price_range_formatted": "750&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Location f2 (duree 2 mois)",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"extra_images": "0",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1006399935.htm?ca=12_s&amp;w=1",
+							"list_id": "1006399935",
+							"list_time": "2016-08-17 15:25:12",
+							"date": "17 ao&ucirc;t 15:25",
+							"price": "920","price_range_formatted": "920&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "2 Pi&egrave;ces 30m2 920 &euro; Metro Corentin Celton",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"extra_images": "0",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/985331344.htm?ca=12_s&amp;w=1",
+							"list_id": "985331344",
+							"list_time": "2016-08-14 08:16:11",
+							"date": "14 ao&ucirc;t 08:16",
+							"price": "829","price_range_formatted": "829&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 32 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img7.leboncoin.fr/thumbs/8c9/8c9100bafb071379c8e3d670747e8fe9cb7df3ac.jpg","thumb_hd": "http://img7.leboncoin.fr/images/8c9/8c9100bafb071379c8e3d670747e8fe9cb7df3ac.jpg",
+									"image_count": "2",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1004753778.htm?ca=12_s&amp;w=1",
+							"list_id": "1004753778",
+							"list_time": "2016-08-12 09:35:28",
+							"date": "12 ao&ucirc;t 09:35",
+							"price": "1 000","price_range_formatted": "1 000&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 39 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img3.leboncoin.fr/thumbs/18d/18d86ef20ac8e71ae0919a8c3bbbc74fdd5de8e1.jpg","thumb_hd": "http://img3.leboncoin.fr/images/18d/18d86ef20ac8e71ae0919a8c3bbbc74fdd5de8e1.jpg",
+									"image_count": "8",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 }
+				]
+
+				
+
+
+	
+
+	
+
+	
+	
+	
+	
+	
+
+	 
+	
+	
+
+	
+		
+		
+
+			
+			
+			
+		
+
+			
+				
+			
+		
+
+			
+			
+				
+				
+					
+					
+				
+				
+					
+					
+				
+			
+		
+
+			
+			
+				
+				
+					
+				
+					
+				
+					
+				
+				
+				 
+			
+		
+
+			
+			    
+				
+				
+					
+					
+				
+
+			
+		
+
+			
+			
+				
+				
+					
+					
+				
+				
+			
+		
+
+			
+			
+				
+				
+				
+				
+
+			
+		
+
+			
+			
+				
+				
+					
+					
+				
+				
+					
+					
+				
+			
+		
+
+			
+				
+			
+		
+		
+		
+		
+
+		
+
+		
+		
+		
+	
+	
+
+
+				
+			
+			,"ads_alu":
+								[
+					
+				]
+
+				
+			}
+	
+
+
+
+

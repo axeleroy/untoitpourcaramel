@@ -1,0 +1,6 @@
+GET /li.search_ads.php?property_types=25%2C5%2C14%2C2%2C19%2C13%2C8%2C27%2C6%2C16%2C12%2C4%2C7%2C20%2C17%2C3%2C22%2C1%2C21%2C9%2C11%2C24%2C26%2C23%2C15%2C18&client=v8.a.3&domain=rentals&bedrooms_range=1%2C0&limit=20&order=date-asc&start=0&rooms_range=2%2C0&area_range=30%2C400&localities=FR_2_14030%2CFR_2_22198&price_range=100%2C2000 HTTP/1.1
+User-Agent: logicimmo-android_mobile/8.3.1.1
+Host: lisemobile.logic-immo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

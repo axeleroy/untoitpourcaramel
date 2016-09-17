@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<detailAnnonce>
+
+<codeOp>0</codeOp>
+	<idTiers>1539</idTiers>
+	<idAnnonce>111271125</idAnnonce>
+	<niveauorargent></niveauorargent>
+	<idTypeTransaction>1</idTypeTransaction>	
+	<idTypeBien>1</idTypeBien>
+	
+	<dtFraicheur>2016-09-10T06:04:00</dtFraicheur>
+	<dtCreation></dtCreation>
+	<titre>Appartement 2 pièces</titre>
+	<libelle></libelle>
+	
+	<descriptif>Nanterre Université, quartier des provinces françaises, immeuble neuf livré en 2016.Deux pièces avec grand balcon exposé au sud comprenant: entrée, salle de bains avec WC, séjour avec cuisine ouverte donnant accès à une terrasse avec vue dégagée et une chambre. Proximité transports.Chauffage collectif. Appartement neuf jamais habité Disponible immédiatement POUR UNE VISITE MERCI D&#39;ENVOYER UN MAIL A L&#39;AGENCE.
+Honoraires TTC en sus : 597.15 €.
+Garantie : 790 €.</descriptif>
+
+
+	<prix>890</prix>
+
+
+
+	<charges>100</charges>
+	<prixUnite>€*</prixUnite>
+	<prixMention>* Loyer mensuel charges comprises</prixMention>
+	<si_fai>False</si_fai>
+	<si_cc>True</si_cc>
+
+
+
+	
+	
+
+	<surface>39</surface>
+	<surfaceUnite>m²</surfaceUnite>
+	<nbPieces>2</nbPieces>
+	<nbChambres>1</nbChambres>
+	<idPays>250</idPays>
+	<pays>France</pays>
+	<cp>92000</cp>
+	<codeInsee>920050</codeInsee>
+	<ville>Nanterre</ville>
+	<adresse></adresse>
+	
+	<latitude>48.885104</latitude>
+	<longitude>2.325242</longitude>
+	<llPrecision>vil</llPrecision>
+	<siExclusif>False</siExclusif>
+	<siMandatExclusif> false</siMandatExclusif>
+	<siMandatStar> false</siMandatStar>
+	<reference>1281</reference>
+	
+	<permaLien>http://www.seloger.com/annonces/locations/appartement/nanterre-92/republique-universite/111271125.htm?p=</permaLien>	
+	<typeDPE></typeDPE>
+	<DPE></DPE>
+	
+	
+	
+	
+	<siLotNeuf>false</siLotNeuf>
+	<idAnnonceProgramme></idAnnonceProgramme>
+	<autrePlateforme></autrePlateforme>
+	<tagOmniture>;111271125#1539#683;;;event1=1;evar56=-1-1-92000-1539-AD:AC:AD:AC:AW</tagOmniture>
+	<baissePrix></baissePrix>
+
+
+
+	<details>
+
+		<detail>
+			<libelle>Surface</libelle>
+			<valeur>39 m²</valeur>
+		</detail>
+
+		<detail>
+			<libelle>Etages</libelle>
+			<valeur>2</valeur>
+		</detail>
+
+		<detail>
+			<libelle>Etage</libelle>
+			<valeur>2</valeur>
+		</detail>
+
+		<detail>
+			<libelle>Pièces</libelle>
+			<valeur>2</valeur>
+		</detail>
+
+		<detail>
+			<libelle>Chambre</libelle>
+			<valeur>1</valeur>
+		</detail>
+
+		<detail>
+			<libelle>Ascenseur</libelle>
+			<valeur></valeur>
+		</detail>
+
+		<detail>
+			<libelle>Terrasse</libelle>
+			<valeur>1</valeur>
+		</detail>
+
+		<detail>
+			<libelle>Type de chauffage</libelle>
+			<valeur>central électrique radiateur</valeur>
+		</detail>
+
+		<detail>
+			<libelle>Interphone</libelle>
+			<valeur></valeur>
+		</detail>
+
+		<detail>
+			<libelle>Digicode</libelle>
+			<valeur></valeur>
+		</detail>
+
+		<detail>
+			<libelle>Entrée</libelle>
+			<valeur></valeur>
+		</detail>
+
+		<detail>
+			<libelle>Salle de Séjour</libelle>
+			<valeur></valeur>
+		</detail>
+
+		<detail>
+			<libelle>Vue</libelle>
+			<valeur></valeur>
+		</detail>
+
+		<detail>
+			<libelle>Orientation</libelle>
+			<valeur>Sud</valeur>
+		</detail>
+
+	</details>
+
+	<contact>
+
+	
+
+
+	
+
+
+		<siAudiotel>false</siAudiotel>
+		<idPublication>683</idPublication>
+		<idAgence>683</idAgence>
+		<idAnnuaire>1521</idAnnuaire>		
+				
+		<niveauAnnuaire></niveauAnnuaire>
+		<typeProfessionnel></typeProfessionnel>		
+		<nom>AGENCE DES BATIGNOLLES</nom>
+		<telephone>01 44 90 03 94</telephone>
+		
+		<email>agencedesbatignolles@orange.fr</email>
+		<adresse>16 rue des Dames 
+75017 Paris</adresse>
+		<latitude>48.885104</latitude>
+		<longitude>2.325242</longitude>
+
+		
+		<rcsSiren>409197050</rcsSiren>
+		
+
+		
+		
+
+
+		
+		<tnyUrl>http://v.seloger.com/s/width/150/logos/1/w/9/v/1w9v6dsuwny0c3llbwt8htm0m9c0jc3yiggz9z1nw.jpg</tnyUrl>
+		<bigUrl>http://v.seloger.com/s/width/150/logos/1/w/9/v/1w9v6dsuwny0c3llbwt8htm0m9c0jc3yiggz9z1nw.jpg</bigUrl>
+		
+		
+
+		
+		<nbAnnoncesLocation>22</nbAnnoncesLocation>
+		
+		
+		
+		
+		<nbAnnoncesVente>8</nbAnnoncesVente>
+		
+		
+		
+		
+		<nbAnnoncesVentePrestige>2</nbAnnoncesVentePrestige>
+		
+		
+		
+		
+		
+
+		
+		<nbBiensVendus>2</nbBiensVendus>
+
+
+
+	</contact>
+	<nbPhotos>5</nbPhotos>
+
+
+	<photos>
+
+		<photo>
+			<ordre>1</ordre>
+			<thumbUrl>http://v.seloger.com/s/width/100/visuels/0/4/t/4/04t4k2mo7y3z46y29j3p72x3ncoi3wpoi1yrztyps.jpg</thumbUrl>
+			<thbUrl>http://v.seloger.com/s/crop/100x100/visuels/0/4/t/4/04t4k2mo7y3z46y29j3p72x3ncoi3wpoi1yrztyps.jpg</thbUrl>
+			<stdUrl>http://v.seloger.com/s/width/400/visuels/0/4/t/4/04t4k2mo7y3z46y29j3p72x3ncoi3wpoi1yrztyps.jpg</stdUrl>
+			<bigUrl>http://v.seloger.com/s/width/800/visuels/0/4/t/4/04t4k2mo7y3z46y29j3p72x3ncoi3wpoi1yrztyps.jpg</bigUrl>			
+		</photo>
+
+		<photo>
+			<ordre>2</ordre>
+			<thumbUrl>http://v.seloger.com/s/height/100/visuels/0/x/p/p/0xppz3q4lyy9zmoimio4ka4i3dhy9w0dm3yhncbwg.jpg</thumbUrl>
+			<thbUrl>http://v.seloger.com/s/crop/100x100/visuels/0/x/p/p/0xppz3q4lyy9zmoimio4ka4i3dhy9w0dm3yhncbwg.jpg</thbUrl>
+			<stdUrl>http://v.seloger.com/s/height/400/visuels/0/x/p/p/0xppz3q4lyy9zmoimio4ka4i3dhy9w0dm3yhncbwg.jpg</stdUrl>
+			<bigUrl>http://1.visuels.poliris.com/bigs/1/c/3/5/1c353a3d-41bb.jpg</bigUrl>			
+		</photo>
+
+		<photo>
+			<ordre>3</ordre>
+			<thumbUrl>http://v.seloger.com/s/width/100/visuels/0/u/6/5/0u65qafnsimnq00bs1mh04rujegmk0308tdgiu1a8.jpg</thumbUrl>
+			<thbUrl>http://v.seloger.com/s/crop/100x100/visuels/0/u/6/5/0u65qafnsimnq00bs1mh04rujegmk0308tdgiu1a8.jpg</thbUrl>
+			<stdUrl>http://v.seloger.com/s/width/400/visuels/0/u/6/5/0u65qafnsimnq00bs1mh04rujegmk0308tdgiu1a8.jpg</stdUrl>
+			<bigUrl>http://v.seloger.com/s/width/800/visuels/0/u/6/5/0u65qafnsimnq00bs1mh04rujegmk0308tdgiu1a8.jpg</bigUrl>			
+		</photo>
+
+		<photo>
+			<ordre>4</ordre>
+			<thumbUrl>http://v.seloger.com/s/width/100/visuels/1/j/m/n/1jmn0jft973hyad5xv9ese6wqhxri5by26o0gi70g.jpg</thumbUrl>
+			<thbUrl>http://v.seloger.com/s/crop/100x100/visuels/1/j/m/n/1jmn0jft973hyad5xv9ese6wqhxri5by26o0gi70g.jpg</thbUrl>
+			<stdUrl>http://v.seloger.com/s/width/400/visuels/1/j/m/n/1jmn0jft973hyad5xv9ese6wqhxri5by26o0gi70g.jpg</stdUrl>
+			<bigUrl>http://v.seloger.com/s/width/800/visuels/1/j/m/n/1jmn0jft973hyad5xv9ese6wqhxri5by26o0gi70g.jpg</bigUrl>			
+		</photo>
+
+		<photo>
+			<ordre>5</ordre>
+			<thumbUrl>http://v.seloger.com/s/width/100/visuels/0/r/r/h/0rrhkewdw5bmdmcw9gy4rsn99v342zjv69yljilfk.jpg</thumbUrl>
+			<thbUrl>http://v.seloger.com/s/crop/100x100/visuels/0/r/r/h/0rrhkewdw5bmdmcw9gy4rsn99v342zjv69yljilfk.jpg</thbUrl>
+			<stdUrl>http://v.seloger.com/s/width/400/visuels/0/r/r/h/0rrhkewdw5bmdmcw9gy4rsn99v342zjv69yljilfk.jpg</stdUrl>
+			<bigUrl>http://v.seloger.com/s/width/800/visuels/0/r/r/h/0rrhkewdw5bmdmcw9gy4rsn99v342zjv69yljilfk.jpg</bigUrl>			
+		</photo>
+
+	</photos>
+
+
+
+
+	
+	<acheterapartirde>
+		<mensualite></mensualite>
+		<taux></taux>
+		<duree></duree>
+	</acheterapartirde>
+	
+
+	<siHonorairesAcquereur>False</siHonorairesAcquereur>
+	<honorairePourcentageAcquereur>0</honorairePourcentageAcquereur>
+	<siCopropriete>True</siCopropriete>
+	<nbLotsCopropriete></nbLotsCopropriete>
+	<chargesAnnuelles></chargesAnnuelles>
+	<siProcedureSyndicat>False</siProcedureSyndicat>
+	<descriptionProcedureSyndicat></descriptionProcedureSyndicat>
+
+</detailAnnonce>

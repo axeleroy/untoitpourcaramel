@@ -1,0 +1,8 @@
+GET /annonceDetail_4.0.xml?idAnnonce=111271125&fromKey=12&canOpenAgenceKey=true&searchKey=Search%3A+%7Bname%3A+%2C+resume%3A+locations+d%27appartements+ou+de+maisons+%C3%A0++Nanterre+%28Hauts-de-Seine%29+et++%C3%A0++Issy-les-Moulineaux+%28Hauts-de-Seine%29%2C+de+1+chambre%2C+ayant+une+surface+sup%C3%A9rieure+%C3%A0+30+m%C2%B2%2C+pour+un+loyer+inf%C3%A9rieur+%C3%A0+950+%E2%82%AC%2Fmois%2C+avec++terrasse%2C+queryString%3A+surfacemin%3D30%26getDtCreationMax%3D1%26si_terrasse%3D1%26nb_chambres%3D1%26idtypebien%3D1%252C2%26ci%3D920050%252C920040%26idtt%3D1%26px_loyermax%3D950%26nbslots%3D3%7D&noAudiotel=1 HTTP/1.1
+Cache-Control: max-age=0,no-cache
+Pragma: no-cache
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; D5803 Build/MOB30M.Z1)
+Host: ws.seloger.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

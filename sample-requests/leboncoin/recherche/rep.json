@@ -1,0 +1,556 @@
+{
+				
+				"total": "15",
+				"search_total": "15"
+                
+                ,
+				"paging_last":"",
+				"numperpage": "20",
+				
+				"lastpagenumber": "1",
+				
+				"private_ads": "8",
+				"company_ads": "7",
+				"ads":
+								[
+					
+						{
+							"url": "https://www.leboncoin.fr/vi/1017087124.htm?ca=12_s&amp;w=1",
+							"list_id": "1017087124",
+							"list_time": "2016-09-10 09:41:21",
+							"date": "Hier 09:41",
+							"price": "980","price_range_formatted": "980&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "2 pi&egrave;ces avec jardinet clos",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img0.leboncoin.fr/thumbs/bbc/bbc3c0d5dea1ecdedd7691119e7bee5e67a11423.jpg","thumb_hd": "http://img0.leboncoin.fr/images/bbc/bbc3c0d5dea1ecdedd7691119e7bee5e67a11423.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1016252098.htm?ca=12_s&amp;w=1",
+							"list_id": "1016252098",
+							"list_time": "2016-09-08 11:23:48",
+							"date": "8 sept 11:23",
+							"price": "1 200","price_range_formatted": "1 200&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "3P 60m2 &agrave; 10mn de la D&Eacute;FENSE",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img6.leboncoin.fr/thumbs/7ae/7ae66a7909a576fa96332350ac9f87a3ee6e6b72.jpg","thumb_hd": "http://img6.leboncoin.fr/images/7ae/7ae66a7909a576fa96332350ac9f87a3ee6e6b72.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1016189069.htm?ca=12_s&amp;w=1",
+							"list_id": "1016189069",
+							"list_time": "2016-09-08 09:21:21",
+							"date": "8 sept 09:21",
+							"price": "980","price_range_formatted": "980&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Location maison avec jardin au porte de Paris",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img5.leboncoin.fr/thumbs/20b/20b954fd1e52e4d7fe384733e4c342329eb721f2.jpg","thumb_hd": "http://img5.leboncoin.fr/images/20b/20b954fd1e52e4d7fe384733e4c342329eb721f2.jpg",
+									"image_count": "1",
+								"extra_images": "0",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/994757102.htm?ca=12_s&amp;w=1",
+							"list_id": "994757102",
+							"list_time": "2016-09-07 18:32:05",
+							"date": "7 sept 18:32",
+							"price": "1 350","price_range_formatted": "1 350&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Location d&#39;un appartement de 65m&sup2;,",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img5.leboncoin.fr/thumbs/54e/54eec97f5bbb111ad98fafcb41bc6011f3dc1ec3.jpg","thumb_hd": "http://img5.leboncoin.fr/images/54e/54eec97f5bbb111ad98fafcb41bc6011f3dc1ec3.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1005591566.htm?ca=12_s&amp;w=1",
+							"list_id": "1005591566",
+							"list_time": "2016-09-05 17:41:15",
+							"date": "5 sept 17:41",
+							"price": "1 460","price_range_formatted": "1 460&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Pavillon a Issy les Mlx",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img4.leboncoin.fr/thumbs/9df/9dffb88b8db1f20b429fd6b91102c0a39bae3657.jpg","thumb_hd": "http://img4.leboncoin.fr/images/9df/9dffb88b8db1f20b429fd6b91102c0a39bae3657.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1012907059.htm?ca=12_s&amp;w=1",
+							"list_id": "1012907059",
+							"list_time": "2016-08-31 15:38:45",
+							"date": "31 ao&ucirc;t 15:38",
+							"price": "980","price_range_formatted": "980&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 3 pi&egrave;ces 38 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img7.leboncoin.fr/thumbs/1b2/1b25ea8e5b89422590c98da1ed49ce1e28c9e355.jpg","thumb_hd": "http://img7.leboncoin.fr/images/1b2/1b25ea8e5b89422590c98da1ed49ce1e28c9e355.jpg",
+									"image_count": "9",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1003057816.htm?ca=12_s&amp;w=1",
+							"list_id": "1003057816",
+							"list_time": "2016-08-31 11:07:23",
+							"date": "31 ao&ucirc;t 11:07",
+							"price": "1 000","price_range_formatted": "1 000&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "30 M2, charme, calme, tr&eacute;s bon &eacute;tat, fonctionnel",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img4.leboncoin.fr/thumbs/c4d/c4d833f330b44cffe63fd147f0cc4c904898f232.jpg","thumb_hd": "http://img4.leboncoin.fr/images/c4d/c4d833f330b44cffe63fd147f0cc4c904898f232.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1012208826.htm?ca=12_s&amp;w=1",
+							"list_id": "1012208826",
+							"list_time": "2016-08-30 15:53:56",
+							"date": "30 ao&ucirc;t 15:53",
+							"price": "985","price_range_formatted": "985&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "2 Pi&egrave;ces avec petit jardin",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img3.leboncoin.fr/thumbs/fc3/fc3e14c36cda46c19a30771d0390aebc0b572f86.jpg","thumb_hd": "http://img3.leboncoin.fr/images/fc3/fc3e14c36cda46c19a30771d0390aebc0b572f86.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1011587290.htm?ca=12_s&amp;w=1",
+							"list_id": "1011587290",
+							"list_time": "2016-08-29 12:46:54",
+							"date": "29 ao&ucirc;t 12:46",
+							"price": "980","price_range_formatted": "980&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "2 pi&egrave;ces 32 m&sup2; avec jardin",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img1.leboncoin.fr/thumbs/52e/52e35e16e908f8b1a6d90cecd210e67c85898d85.jpg","thumb_hd": "http://img1.leboncoin.fr/images/52e/52e35e16e908f8b1a6d90cecd210e67c85898d85.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1011947277.htm?ca=12_s&amp;w=1",
+							"list_id": "1011947277",
+							"list_time": "2016-08-29 11:18:41",
+							"date": "29 ao&ucirc;t 11:18",
+							"price": "1 180","price_range_formatted": "1 180&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 55 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"extra_images": "0",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/990441931.htm?ca=12_s&amp;w=1",
+							"list_id": "990441931",
+							"list_time": "2016-08-26 10:00:13",
+							"date": "26 ao&ucirc;t 10:00",
+							"price": "1 190","price_range_formatted": "1 190&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 47 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"extra_images": "0",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/965797484.htm?ca=12_s&amp;w=1",
+							"list_id": "965797484",
+							"list_time": "2016-08-20 12:48:34",
+							"date": "20 ao&ucirc;t 12:48",
+							"price": "820","price_range_formatted": "820&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 30 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img3.leboncoin.fr/thumbs/678/67817e07be76516513f754ab0e70bf8a60363a9f.jpg","thumb_hd": "http://img3.leboncoin.fr/images/678/67817e07be76516513f754ab0e70bf8a60363a9f.jpg",
+									"image_count": "6",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1004444081.htm?ca=12_s&amp;w=1",
+							"list_id": "1004444081",
+							"list_time": "2016-08-12 08:24:08",
+							"date": "12 ao&ucirc;t 08:24",
+							"price": "1 109","price_range_formatted": "1 109&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 43 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img0.leboncoin.fr/thumbs/d85/d8534c6cd992357ee8f91060cd57113ce0b7c000.jpg","thumb_hd": "http://img0.leboncoin.fr/images/d85/d8534c6cd992357ee8f91060cd57113ce0b7c000.jpg",
+									"image_count": "7",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1003796460.htm?ca=12_s&amp;w=1",
+							"list_id": "1003796460",
+							"list_time": "2016-08-10 11:06:24",
+							"date": "10 ao&ucirc;t 11:06",
+							"price": "1 200","price_range_formatted": "1 200&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 50 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img7.leboncoin.fr/thumbs/9ff/9ff9e9491c18761833b53bbf2a690500429064ac.jpg","thumb_hd": "http://img7.leboncoin.fr/images/9ff/9ff9e9491c18761833b53bbf2a690500429064ac.jpg",
+									"image_count": "6",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 },
+						{
+							"url": "https://www.leboncoin.fr/vi/1003202170.htm?ca=12_s&amp;w=1",
+							"list_id": "1003202170",
+							"list_time": "2016-08-09 08:08:46",
+							"date": "9 ao&ucirc;t 08:08",
+							"price": "946","price_range_formatted": "946&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Appartement 2 pi&egrave;ces 39 m&sup2;",
+							"company_ad": "1",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img6.leboncoin.fr/thumbs/2ee/2eeebfea9329662cef4612b9349e632d0118bd38.jpg","thumb_hd": "http://img6.leboncoin.fr/images/2ee/2eeebfea9329662cef4612b9349e632d0118bd38.jpg",
+									"image_count": "5",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92000","city": "Nanterre",
+							"brand": "",
+							"model": ""
+							
+						 }
+				]
+
+				
+
+
+	
+
+	
+
+	
+	
+	
+	
+	
+
+	 
+	
+	
+
+	
+		
+		
+
+			
+			
+			
+		
+
+			
+				
+			
+		
+
+			
+			
+				
+				
+					
+					
+				
+				
+					
+					
+				
+			
+		
+
+			
+			
+				
+				
+					
+				
+					
+				
+					
+				
+				
+				 
+			
+		
+
+			
+			    
+				
+				
+					
+					
+				
+
+			
+		
+
+			
+			
+				
+				
+					
+					
+				
+				
+			
+		
+
+			
+			
+				
+				
+				
+				
+
+			
+		
+
+			
+			
+				
+				
+					
+					
+				
+				
+					
+					
+				
+			
+		
+
+			
+				
+			
+		
+
+			
+				
+			
+		
+		
+		
+		
+
+		
+
+		
+		
+		
+	
+	
+
+
+				
+			
+			,"ads_alu":
+								[
+					
+						{
+							"url": "https://www.leboncoin.fr/vi/1005591566.htm?ca=12_s&amp;w=1",
+							"list_id": "1005591566",
+							"list_time": "2016-09-05 17:41:15",
+							"date": "5 sept 17:41",
+							"price": "1 460","price_range_formatted": "1 460&nbsp;&euro;",
+							"category_name": "Locations",	
+							"category_id": "10",
+							"subject": "Pavillon a Issy les Mlx",
+							"company_ad": "0",
+							"urgent": "",
+							"booster":"",
+							"type": "u",
+							"type_name": "",
+							"thumb": "http://img4.leboncoin.fr/thumbs/9df/9dffb88b8db1f20b429fd6b91102c0a39bae3657.jpg","thumb_hd": "http://img4.leboncoin.fr/images/9df/9dffb88b8db1f20b429fd6b91102c0a39bae3657.jpg",
+									"image_count": "3",
+								"extra_images": "1",
+							"region": "12",
+							"region_name": "Ile-de-France",
+							"dpt_code": "92","dpt_name": "Hauts-de-Seine",
+							"zipcode": "92130","city": "Issy-les-Moulineaux",
+							"brand": "",
+							"model": ""
+							
+						 }
+				]
+
+				
+			}
+	
+
+
+
+

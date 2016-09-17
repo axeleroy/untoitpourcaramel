@@ -1,0 +1,8 @@
+POST /templates/api/view.json?ad_id=1003202170 HTTP/1.1
+User-Agent: fr.leboncoin.android , Sony D5803 , 6.0.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 157
+Host: mobile.leboncoin.fr
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

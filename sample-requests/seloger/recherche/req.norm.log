@@ -1,0 +1,8 @@
+GET /search_4.0.xml?surfacemin=30&getDtCreationMax=1&si_terrasse=1&nb_chambres=1&idtypebien=1%2C2&ci=920050%2C920040&idtt=1&photo=10&px_loyermax=950&px_loyermin=100&nbslots=3 HTTP/1.1
+Cache-Control: max-age=0,no-cache
+Pragma: no-cache
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; D5803 Build/MOB30M.Z1)
+Host: ws.seloger.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

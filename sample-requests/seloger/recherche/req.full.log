@@ -1,0 +1,8 @@
+GET /search_4.0.xml?surfacemax=400&surfacemin=30&si_alarme=1&getDtCreationMax=1&si_est=1&si_sud=1&si_vue=1&si_terrasse=1&nb_chambres=1%2C2&nb_pieces=5%2C5%2B&si_parquet=1&si_toilettes_separees=1&idtypebien=1%2C11%2C12%2C13%2C14%2C2%2C3%2C4%2C6%2C7%2C8%2C9&si_piscine=1&ci=920050%2C920040&idtt=1&si_boxes=1&si_ouest=1&photo=10&si_gardien=1&si_digicode=1&si_ascenseur=1&si_interphone=1&si_visavis=1&px_loyermax=2000&px_loyermin=100&si_climatisation=1&si_parkings=1&nbslots=3&nb_balconsmin=1&si_cheminee=1&si_cave=1&si_nord=1 HTTP/1.1
+Cache-Control: max-age=0,no-cache
+Pragma: no-cache
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; D5803 Build/MOB30M.Z1)
+Host: ws.seloger.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
