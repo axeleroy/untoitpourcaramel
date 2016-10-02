@@ -1,7 +1,7 @@
 from peewee import *
 from playhouse.sqlite_ext import SqliteExtDatabase
 
-db = SqliteExtDatabase('annonces.db')
+db = SqliteExtDatabase('database.sqlite')
 
 
 class Annonce(Model):
@@ -20,7 +20,7 @@ class Annonce(Model):
     city = CharField()
     link = CharField()
     picture = CharField(null=True)
-    published = BooleanField(default=False)
+    posted2trello = BooleanField(default=False)
 
     class Meta:
         database = db

@@ -1,4 +1,5 @@
-annonces.db
+database.sqlite
+trello.ini
 __pycache__/
 scrapping_modules/__pycache__/
 /.idea/

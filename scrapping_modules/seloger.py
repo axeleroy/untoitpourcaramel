@@ -1,6 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
-from annonce import Annonce
+from models import Annonce
 from datetime import datetime
 '''Module qui récupère les annonces de SeLoger.com'''
 
@@ -18,13 +18,11 @@ def search(parameters):
         'nb_chambres': list(range(1, parameters['bedrooms'] + 1)),
         'ci': [int(cp[2]) for cp in parameters['cities']],
 
-        # Paramètres "bonus"
-        'si_terrasse': 1,
+        # Paramètres propres à se loger
+        'idtt': 1,  # 1 : location, 2 : vente
         'idtypebien': '1,2',  # Appartement & Maison / Villa,
-
-        # Paramètres SeLoger ¯\_(ツ)_/¯
-        'getDtCreationMax': 1,
-        'idtt': 1,
+        'si_terrasse': 1,
+        'getDtCreationMax': 1  # ¯\_(ツ)_/¯
     }
 
     headers = {'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; D5803 Build/MOB30M.Z1)'}

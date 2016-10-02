@@ -7,6 +7,9 @@ Trello._
 * Python 3
 * [peewee](http://docs.peewee-orm.com/en/latest/)
 * [Requests](https://requests.readthedocs.io/en/master/)
+* [py-trello](https://pypi.python.org/pypi/py-trello/0.6.1) 
+    (et [ses dépendances](https://github.com/sarumont/py-trello/blob/master/requirements.txt))
+
 
 ## Le processus d'ingénierie inversée
 Puisque les sites exploités ne proposent pas publiquement d'API permettant de récupérer les annonces,
@@ -43,15 +46,34 @@ dans le dossier `sample-requests` pour votre analyse (et pour tirer partie des p
 ```
 
 ## Paramétrer \#UnToitPourCaramel pour ses besoins
-Le fichier `main.py` contient un dictionnaire nommé `parameters` qui contient les paramètres communs à chaque service.
+### Authentification Trello
+Avant de commencer à utiliser \#UnToitPourCaramel, il vous faut créer le fichier `trello.ini` qui contiendra vos
+jetons pour Trello ainsi que le nom de votre tableau et de votre liste :
 ```
+[TRELLO]
+ApiKey=your-key
+ApiSecret=your-secret
+Token=your-oauth-token-key
+TokenSecret=your-oauth-token-secret
+BoardName=Recherche appartement
+ListName=Nouveaux appartements
+```
+`ApiKey` et `ApiSecret` sont [à obtenir ici](https://trello.com/1/appKey/generate) tandis que `Token`
+et `Token Secret` sont à générer avec l'utilitaire `util.py` de `py-trello` :
+```
+TRELLO_API_KEY=ApiKey TRELLO_API_SECRET=ApiSecret python3 /path/to/py-trello/folder/util.py
+```
+
+### Paramètres de recherche
+Le fichier `main.py` contient un dictionnaire nommé `parameters` qui contient les paramètres communs à chaque service.
+```python
 parameters = {
     # ('Ville', Code postal, Code Insee)
     'cities': [
-        ('Nanterre', 92000, 92050),
-        ('Chaville', 92370, 92022),
-        ('Issy les Moulineaux', 92130, 92040),
-        ('Montrouge', 92120, 92049)
+        ('Nanterre', 92000, 920050),
+        ('Chaville', 92370, 920022),
+        ('Issy les Moulineaux', 92130, 920040),
+        ('Montrouge', 92120, 920049)
     ],
     # (min, max)
     'price': (200, 950),
@@ -62,16 +84,20 @@ parameters = {
 ```
 Ces paramètres sont passés aux modules de scrapping situés dans `scrapping_modules` et utilisés dans le dictionnaire
 nommé `payload` qui contient les paramètres passés à l'API. Vous pouvez y ajouter les paramètres propres à chaque
-service comme tel :
-```
+service comme tel (ici `seloger.py`) :
+```python
 payload = {
-        'px_loyermin': parameters['price'][0],
-        [...]
+    'px_loyermin': parameters['price'][0],
+    [...]
 
-        # Paramètres "bonus"
-        'si-terrasse': 1,
+    # Paramètres propres à SeLoger
+    'idtt': 1,  # 1 : location, 2 : vente
+    'idtypebien': '1,2',  # Appartement & Maison / Villa,
+    'si_terrasse': 1,
 
-        # Paramètres Se Loger
-        'etDtCreationMax': 1
-    }
+    # Paramètres propres à se loger
+    'idtt': 1,  # 1 : location, 2 : vente
+    'idtypebien': '1,2',  # Appartement & Maison / Villa,
+    'si_terrasse': 1
+}
 ```
