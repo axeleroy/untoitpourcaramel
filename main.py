@@ -1,8 +1,12 @@
+import os
+import sys
 import models
 import configparser
 from scrapping_modules import seloger
 from models import Annonce
 from trello import TrelloClient
+
+os.chdir(os.path.dirname(sys.argv[0]))
 
 # region configuration
 models.create_tables()
