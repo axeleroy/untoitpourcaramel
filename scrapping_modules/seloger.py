@@ -44,9 +44,8 @@ def search(parameters):
             bedrooms=annonceNode.find('nbChambre').text,
             city=annonceNode.find('ville').text,
             link=annonceNode.find('permaLien').text,
-            picture=annonceNode.find('photos')[0].find('b600url').text  # Première photo du bien
+            picture=annonceNode.find('photos')[0].find('bigUrl').text  # Première photo du bien
         )
 
         if created:
             annonce.save()
-
