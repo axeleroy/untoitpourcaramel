@@ -1,0 +1,4 @@
+annonces.db
+__pycache__/
+scrapping_modules/__pycache__/
+/.idea/
