@@ -101,3 +101,26 @@ payload = {
     'si_terrasse': 1
 }
 ```
+
+## Déploiement sur un Raspberry Pi
+_Testé sur un Raspberry Pi sous Raspbian Jessie._
+
+1. Installer `python3-pip`
+    ```
+    sudo apt install python3-pip -y
+    ```
+2. Installer les dépendances
+    ```
+    sudo pip3 install peewee requests requests_oauthlib py-trello pytz python-dateutil
+    ```
+3. Clonner ce projet
+    ```
+    git clone https://github.com/axeleroy/untoitpourcaramel.git
+    ```
+3. Créer une tâche `cron` pour lancer ce script régulièrement (dans mon cas toutes les 2h)
+    ```
+    crontab -e
+    ```
+    ```
+    * */2 * * * python3 /home/pi/untoitpourcaramel/main.py
+    ```
