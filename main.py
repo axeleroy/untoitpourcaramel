@@ -1,9 +1,8 @@
 import os
 import sys
 import models
-import trello_config
+import trello_module
 from scrapping_modules import seloger
-from models import Annonce
 
 os.chdir(os.path.dirname(sys.argv[0]))
 
@@ -31,18 +30,5 @@ parameters = {
 # Recherche et insertion en base
 seloger.search(parameters)
 
-_list = trello_config.get_list()
-for annonce in Annonce.select().where(Annonce.posted2trello == False):
-    title = "%s de %sm² à %s @ %s€" % (annonce.title, annonce.surface, annonce.city, annonce.price)
-    description = "Créé le : %s\n>%s\n\n %s pièces, %s chambre(s)\nCharges : %s" % \
-                  (annonce.created.strftime("%Y-%m-%d %H:%M:%S"), annonce.description, annonce.rooms, annonce.bedrooms,
-                   annonce.charges)
-
-    card = _list.add_card(title, desc=description)
-
-    card.attach(url=annonce.link)
-    if annonce.picture:
-        card.attach(url=annonce.picture)
-
-    annonce.posted2trello = True
-    annonce.save()
+# Envoi des annonces sur Trello
+trello_module.post()

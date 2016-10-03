@@ -1,5 +1,6 @@
 import configparser
 from trello import TrelloClient
+from models import Annonce
 
 def get_list():
     '''
@@ -35,3 +36,25 @@ def get_list():
         exit()
 
     return list
+
+def post():
+    '''
+    Poste les annonces sur Trello
+    '''
+
+    _list = get_list()
+    for annonce in Annonce.select().where(Annonce.posted2trello == False):
+        title = "%s de %sm² à %s @ %s€" % (annonce.title, annonce.surface, annonce.city, annonce.price)
+        description = "Créé le : %s\n\n>%s\n\n %s pièces, %s chambre(s)\nCharges : %s" % \
+                      (annonce.created.strftime("%Y-%m-%d %H:%M:%S"), annonce.description, annonce.rooms,
+                       annonce.bedrooms,
+                       annonce.charges)
+
+        card = _list.add_card(title, desc=description)
+
+        card.attach(url=annonce.link)
+        if annonce.picture:
+            card.attach(url=annonce.picture)
+
+        annonce.posted2trello = True
+        annonce.save()
