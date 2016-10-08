@@ -32,10 +32,15 @@ def search(parameters):
     xmlRoot = ET.fromstring(request.text)
 
     for annonceNode in xmlRoot.findall('annonces/annonce'):
+        photos = list()
+        for photo in annonceNode.find("photos"):
+            photos.append(photo.find("stdUrl").text)
+
         annonce, created = Annonce.create_or_get(
             id='seloger-' + annonceNode.find('idAnnonce').text,
             site='seloger',
-            title=annonceNode.find('titre').text,
+            # SeLoger peut ne pas fournir de titre pour une annonce T_T
+            title="Appartement " + annonceNode.find('nbPiece').text + " pièces" if annonceNode.find('titre').text is None else annonceNode.find('titre').text,
             created=datetime.strptime(annonceNode.find('dtCreation').text, '%Y-%m-%dT%H:%M:%S'),
             price=annonceNode.find('prix').text,
             charges=annonceNode.find('charges').text,
@@ -44,7 +49,7 @@ def search(parameters):
             bedrooms=annonceNode.find('nbChambre').text,
             city=annonceNode.find('ville').text,
             link=annonceNode.find('permaLien').text,
-            picture=annonceNode.find('photos')[0].find('bigUrl').text  # Première photo du bien
+            picture=photos
         )
 
         if created:

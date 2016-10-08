@@ -1,6 +1,7 @@
 import configparser
 from trello import TrelloClient
 from models import Annonce
+from ast import literal_eval
 
 def get_list():
     '''
@@ -53,7 +54,14 @@ def post():
         card = _list.add_card(title, desc=description)
 
         card.attach(url=annonce.link)
-        if annonce.picture:
+
+        # On s'assure que ce soit bien un tableau
+        if annonce.picture is not None and annonce.picture.startswith("["):
+            # Conversion de la chaîne de caractère représentant le tableau d'images en tableau
+            for picture in literal_eval(annonce.picture):
+                card.attach(url=picture)
+        # Il n'y a qu'une photo
+        elif annonce.picture is not None and annonce.picture.startswith("http"):
             card.attach(url=annonce.picture)
 
         annonce.posted2trello = True
