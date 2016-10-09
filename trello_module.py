@@ -46,10 +46,12 @@ def post():
     _list = get_list()
     for annonce in Annonce.select().where(Annonce.posted2trello == False):
         title = "%s de %sm² à %s @ %s€" % (annonce.title, annonce.surface, annonce.city, annonce.price)
-        description = "Créé le : %s\n\n>%s\n\n %s pièces, %s chambre(s)\nCharges : %s" % \
-                      (annonce.created.strftime("%Y-%m-%d %H:%M:%S"), annonce.description, annonce.rooms,
-                       annonce.bedrooms,
-                       annonce.charges)
+        description = "Créé le : %s\n\n" \
+                      "%s pièces, %s chambre(s)\n" \
+                      "Charges : %s\n\n" \
+                      ">%s" % \
+                      (annonce.created.strftime("%a %d %b %Y %H:%M:%S"), annonce.rooms, annonce.bedrooms, annonce.charges,
+                       annonce.description)
 
         card = _list.add_card(title, desc=description)
 

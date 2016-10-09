@@ -1,12 +1,12 @@
 # \#UnToitPourCaramel
 _Un programme inspiré par [VikParuchuri/apartment-finder](https://github.com/VikParuchuri/apartment-finder) 
-qui récupère les annonces immoblières de SeLoger, Logic-Immo, PAP et Leboncoin pour les aggréger dans un tableau
-Trello._
+qui récupère les annonces immoblières de SeLoger et Leboncoin pour les aggréger dans un tableau Trello._
 
 ## Pré-requis
 * Python 3
 * [peewee](http://docs.peewee-orm.com/en/latest/)
 * [Requests](https://requests.readthedocs.io/en/master/)
+* [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [py-trello](https://pypi.python.org/pypi/py-trello/0.6.1) 
     (et [ses dépendances](https://github.com/sarumont/py-trello/blob/master/requirements.txt))
 
@@ -27,8 +27,8 @@ l'API.
 
 ~~Une réponse~~
 
-Avec ces deux informations, on sait donc comment interroger le service avec les critères que l'on souhaite et
-quelle réponse il renvoit.
+Avec cette méthodologie on peut déterminer comment interroger le service avec les critères que l'on souhaite et
+quelles réponses il renvoit.
 
 ~~Requête d'une annonce~~
 
@@ -111,7 +111,7 @@ _Testé sur un Raspberry Pi sous Raspbian Jessie._
     ```
 2. Installer les dépendances
     ```
-    sudo pip3 install peewee requests requests_oauthlib py-trello pytz python-dateutil
+    sudo pip3 install peewee requests requests_oauthlib py-trello pytz python-dateutil beautifulsoup4
     ```
 3. Clonner ce projet
     ```

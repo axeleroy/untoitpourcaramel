@@ -12,9 +12,9 @@ def search(parameters):
         'px_loyermax': parameters['price'][1],
         'surfacemin': parameters['surface'][0],
         'surfacemax': parameters['surface'][1],
-        # Si parameters['rooms'] = (2, 4) => "2%2C3%2C4"
+        # Si parameters['rooms'] = (2, 4) => "2,3,4"
         'nbpieces': list(range(parameters['rooms'][0], parameters['rooms'][1] + 1)),
-        # Si parameters['bedrooms'] = 2 => "1%2C2"
+        # Si parameters['bedrooms'] = 2 => "1,2"
         'nb_chambres': list(range(1, parameters['bedrooms'] + 1)),
         'ci': [int(cp[2]) for cp in parameters['cities']],
 

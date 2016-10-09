@@ -3,6 +3,7 @@ import sys
 import models
 import trello_module
 from scrapping_modules import seloger
+from scrapping_modules import leboncoin
 
 os.chdir(os.path.dirname(sys.argv[0]))
 
@@ -29,6 +30,7 @@ parameters = {
 
 # Recherche et insertion en base
 seloger.search(parameters)
+leboncoin.search(parameters)
 
 # Envoi des annonces sur Trello
 trello_module.post()

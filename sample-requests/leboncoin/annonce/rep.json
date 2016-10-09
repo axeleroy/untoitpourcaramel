@@ -1,129 +1,129 @@
 {
-			
-			
-			
-			"list_id": "1003202170",
-			"subject": "Appartement 2 pi&egrave;ces 39 m&sup2;",
-			
-			
-			
-			"body": "NANTERRE 2 pi&egrave;ces 39.2 m&sup2;<br /><br />Nanterre dans un immeuble neuf tr&egrave;s beau f2 avec terrasse de 20m&sup2; Proche transports et commerces   entr&eacute;e, salle de bains, chambre, cuisine ouverte sur s&eacute;jour, terrasse et jardin<br />R&eacute;f&eacute;rence annonce : 1218350<br />Honoraires : 588 &euro;<br />D&eacute;p&ocirc;t de garantie : 866 &euro;<br />Montant des charges : 80 &euro; / mois",
-		 	
-				
-			        
-				"phone": "0147100115",
-				"phonegifs":
-					"<img src=\"https://www.leboncoin.fr/pg/1i5JGnHjf2Nu8ZILatrwibxgBJsnUlgrXYGk=.gif\" />",
-				"no_salesmen": "0",
-			
-			"date": "9 ao&ucirc;t 08:08",
-			"formatted_date": "09/08/2016 &agrave; 08h08",
-			"price": "946",
-			"company_ad": "1",
-			"store_id": "3188986", 
-			"in_boutique": "0",
-			"imported": "1",
-			"category": "Locations",
-			"category_id": "10",
-			"name": "FONCIA FOUBERT",
-			"zipcode": "92000",
-                        "region": "12",
-                        "department": "92",
-			"geo_source": "city",
-                        "geo_provider": "lbc",
-                        "longitude": "2.19428",
-                        "latitude": "48.88822",
-			"type": "u",
-			"urgent": "",
-			"booster":"",
-			"parameters": [
-				{
-						
-					"id": "charges_included",
-					"value": "Oui",
-					"label": "Charges comprises"
-				}
-							
-				,{
-						
-					"id": "city",
-					"value": "Nanterre",
-					"label": "Ville"
-				}
-							
-				,{
-						
-					"id": "custom_ref",
-					"value": "1218350",
-					"label": "Référence"
-				}
-							
-				,{
-						
-					"id": "energy_rate",
-					"value": "A (moins de 50)",
-					"label": "Classe énergie"
-				}
-							
-				,{
-						
-					"id": "furnished",
-					"value": "Non meubl&eacute;",
-					"label": "Meublé / Non meublé"
-				}
-							
-				,{
-						
-					"id": "ges",
-					"value": "C (de 11 &agrave; 20)",
-					"label": "GES"
-				}
-							
-				,{
-						
-					"id": "real_estate_type",
-					"value": "Appartement",
-					"label": "Type de bien"
-				}
-							
-				,{
-						
-					"id": "rooms",
-					"value": "2",
-					"label": "Pièces"
-				}
-							
-				,{
-						
-					"id": "siren",
-					"value": "719803967",
-					"label": "Siren"
-				}
-							
-				,{
-						
-					"id": "square",
-					"value": "39 m&sup2;",
-					"label": "Surface"
-				}
-							
-				,{
-						
-					"id": "zipcode",
-					"value": "92000",
-					"label": "Code postal"
-				}
-							
-			],
-			  
-			"images": [
-				"http://img6.leboncoin.fr/images/2ee/2eeebfea9329662cef4612b9349e632d0118bd38.jpg",
-				"http://img5.leboncoin.fr/images/c18/c1855d095bd1eb961bda478346e43148aec24e53.jpg",
-				"http://img4.leboncoin.fr/images/492/492d43d15a5c96f6663e27a9a8b386c41dfeffc7.jpg",
-				"http://img3.leboncoin.fr/images/c9d/c9da881d59f23ca664b11d606ab50d237d36d03d.jpg",
-				"http://img7.leboncoin.fr/images/49e/49e2c0da1f7db5ec5fa647e5234a5d6632b6c7ee.jpg"
-				
-			]
+
+
+
+	"list_id": "1003202170",
+	"subject": "Appartement 2 pi&egrave;ces 39 m&sup2;",
+
+
+
+	"body": "NANTERRE 2 pi&egrave;ces 39.2 m&sup2;<br /><br />Nanterre dans un immeuble neuf tr&egrave;s beau f2 avec terrasse de 20m&sup2; Proche transports et commerces   entr&eacute;e, salle de bains, chambre, cuisine ouverte sur s&eacute;jour, terrasse et jardin<br />R&eacute;f&eacute;rence annonce : 1218350<br />Honoraires : 588 &euro;<br />D&eacute;p&ocirc;t de garantie : 866 &euro;<br />Montant des charges : 80 &euro; / mois",
+
+
+
+	"phone": "0147100115",
+	"phonegifs":
+	"<img src=\"https://www.leboncoin.fr/pg/1i5JGnHjf2Nu8ZILatrwibxgBJsnUlgrXYGk=.gif\" />",
+	"no_salesmen": "0",
+
+	"date": "9 ao&ucirc;t 08:08",
+	"formatted_date": "09/08/2016 &agrave; 08h08",
+	"price": "946",
+	"company_ad": "1",
+	"store_id": "3188986",
+	"in_boutique": "0",
+	"imported": "1",
+	"category": "Locations",
+	"category_id": "10",
+	"name": "FONCIA FOUBERT",
+	"zipcode": "92000",
+	"region": "12",
+	"department": "92",
+	"geo_source": "city",
+	"geo_provider": "lbc",
+	"longitude": "2.19428",
+	"latitude": "48.88822",
+	"type": "u",
+	"urgent": "",
+	"booster":"",
+	"parameters": [
+		{
+
+			"id": "charges_included",
+			"value": "Oui",
+			"label": "Charges comprises"
+		}
+
+	,{
+
+			"id": "city",
+			"value": "Nanterre",
+			"label": "Ville"
+		}
+
+	,{
+
+			"id": "custom_ref",
+			"value": "1218350",
+			"label": "Référence"
+		}
+
+	,{
+
+			"id": "energy_rate",
+			"value": "A (moins de 50)",
+			"label": "Classe énergie"
+		}
+
+	,{
+
+			"id": "furnished",
+			"value": "Non meubl&eacute;",
+			"label": "Meublé / Non meublé"
+		}
+
+	,{
+
+			"id": "ges",
+			"value": "C (de 11 &agrave; 20)",
+			"label": "GES"
+		}
+
+	,{
+
+			"id": "real_estate_type",
+			"value": "Appartement",
+			"label": "Type de bien"
+		}
+
+	,{
+
+			"id": "rooms",
+			"value": "2",
+			"label": "Pièces"
+		}
+
+	,{
+
+			"id": "siren",
+			"value": "719803967",
+			"label": "Siren"
+		}
+
+	,{
+
+			"id": "square",
+			"value": "39 m&sup2;",
+			"label": "Surface"
+		}
+
+	,{
+
+			"id": "zipcode",
+			"value": "92000",
+			"label": "Code postal"
+		}
+
+	],
+
+	"images": [
+		"http://img6.leboncoin.fr/images/2ee/2eeebfea9329662cef4612b9349e632d0118bd38.jpg",
+		"http://img5.leboncoin.fr/images/c18/c1855d095bd1eb961bda478346e43148aec24e53.jpg",
+		"http://img4.leboncoin.fr/images/492/492d43d15a5c96f6663e27a9a8b386c41dfeffc7.jpg",
+		"http://img3.leboncoin.fr/images/c9d/c9da881d59f23ca664b11d606ab50d237d36d03d.jpg",
+		"http://img7.leboncoin.fr/images/49e/49e2c0da1f7db5ec5fa647e5234a5d6632b6c7ee.jpg"
+
+	]
 }
 
 
