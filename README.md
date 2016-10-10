@@ -105,9 +105,9 @@ payload = {
 ## Déploiement sur un Raspberry Pi
 _Testé sur un Raspberry Pi sous Raspbian Jessie._
 
-1. Installer `python3-pip`
+1. Installer `python3-pip` et ``python3-lxml`
     ```
-    sudo apt install python3-pip -y
+    sudo apt install python3-pip python3-lxml -y
     ```
 2. Installer les dépendances
     ```
