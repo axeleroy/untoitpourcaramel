@@ -21,7 +21,7 @@ def search(parameters):
         # Paramètres propres à se loger
         'idtt': 1,  # 1 : location, 2 : vente
         'idtypebien': '1,2',  # Appartement & Maison / Villa,
-        'si_terrasse': 1,
+        # 'si_terrasse': 1,
         'getDtCreationMax': 1  # ¯\_(ツ)_/¯
     }
 

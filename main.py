@@ -15,10 +15,11 @@ parameters = {
     'cities': [
         ('Nanterre', 92000, 920050),
         ('Chaville', 92370, 920022),
-        ('Issy les Moulineaux', 92130, 920040),
+        ('Issy-les-Moulineaux', 92130, 920040),
         ('Montrouge', 92120, 920049),
         ('Saint-Cloud', 92210, 920064),
-        ('Meudon', 92190, 920048)
+        ('Meudon', 92190, 920048),
+        ('Rueil-Malmaison', 92500, 920063)
     ],
     # (min, max)
     'price': (200, 950),
