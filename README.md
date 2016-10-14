@@ -18,10 +18,9 @@ ces sites à l'aide de [Packet Capture](https://play.google.com/store/apps/detai
 
 ~~Image de Packet Capture~~
 
-Une fois Packet Capture installé et configuré, il n'y avait plus qu'à lancer les applications et pour chacune
-d'entre elle faire une première recherche avec tous les critères possibles afin d'identifier la requête et
-les critères ; et une seconde qui retourne au moins deux résultat pour pouvoir étudier l'objet retourné par
-l'API.
+Une fois Packet Capture installé et configuré, il n'y a plus qu'à lancer les applications, effectuer une première
+recherche avec tous les critères possibles afin d'identifier la requête et les critères ; et une seconde qui retourne au
+moins deux résultats pour pouvoir étudier l'objet retourné par l'API.
 
 ~~Requête avec tous les paramètres~~
 
@@ -42,7 +41,6 @@ dans le dossier `sample-requests` pour votre analyse (et pour tirer partie des p
     - rep.xml / rep.json : Corps de la réponse contenant les résultats de la recheche
     - req.full.log : En-têtes de la requête de recherche avec tous les paramètres proposés par l'application
     - req.norm.log : En-têtes de la requête d'une recherche dans un cas d'utilisation normale
-    Cas spécifique de Leboncoin : les résultats de recherche sont en plusieurs parties et nécessitent plusieures requêtes
 ```
 
 ## Paramétrer \#UnToitPourCaramel pour ses besoins
@@ -65,36 +63,34 @@ TRELLO_API_KEY=ApiKey TRELLO_API_SECRET=ApiSecret python3 /path/to/py-trello/fol
 ```
 
 ### Paramètres de recherche
-Le fichier `main.py` contient un dictionnaire nommé `parameters` qui contient les paramètres communs à chaque service.
-```python
-parameters = {
-    # ('Ville', Code postal, Code Insee)
-    'cities': [
-        ('Nanterre', 92000, 920050),
-        ('Chaville', 92370, 920022),
-        ('Issy les Moulineaux', 92130, 920040),
-        ('Montrouge', 92120, 920049)
+De même que les jetons Trello, les paramètres de recherce communs à tous les services sont dans le fichier 
+`parameters.json` qu'il faut créer avant d'utiliser le programme :
+```json
+{
+    "cities": 
+    [
+        ["Nanterre", 92000, 920050],
+        ["Saint-Cloud", 92210, 920064],
+        ["Rueil-Malmaison", 92500, 920063]
     ],
-    # (min, max)
-    'price': (200, 950),
-    'surface': (25, 70),
-    'rooms': (2, 5),
-    'bedrooms': 1,
+    "price": [200, 950],
+    "surface": [25, 70],
+    "rooms": [2, 5],
+    "bedrooms": 1
 }
 ```
-Ces paramètres sont passés aux modules de scrapping situés dans `scrapping_modules` et utilisés dans le dictionnaire
+
+À noter que la troisième valeur de chaque ville est le code INSEE utilisé par SeLoger.
+
+Ces paramètres sont récupérés et passés aux modules de scrapping situés dans `scrapping_modules` et utilisés dans le dictionnaire
 nommé `payload` qui contient les paramètres passés à l'API. Vous pouvez y ajouter les paramètres propres à chaque
 service comme tel (ici `seloger.py`) :
 ```python
 payload = {
     'px_loyermin': parameters['price'][0],
-    [...]
-
-    # Paramètres propres à SeLoger
-    'idtt': 1,  # 1 : location, 2 : vente
-    'idtypebien': '1,2',  # Appartement & Maison / Villa,
-    'si_terrasse': 1,
-
+    
+    # [...]
+    
     # Paramètres propres à se loger
     'idtt': 1,  # 1 : location, 2 : vente
     'idtypebien': '1,2',  # Appartement & Maison / Villa,
@@ -105,7 +101,7 @@ payload = {
 ## Déploiement sur un Raspberry Pi
 _Testé sur un Raspberry Pi sous Raspbian Jessie._
 
-1. Installer `python3-pip` et ``python3-lxml`
+1. Installer `python3-pip` et `python3-lxml` (en plus de Python 3)
     ```
     sudo apt install python3-pip python3-lxml -y
     ```
@@ -113,14 +109,15 @@ _Testé sur un Raspberry Pi sous Raspbian Jessie._
     ```
     sudo pip3 install peewee requests requests_oauthlib py-trello pytz python-dateutil beautifulsoup4
     ```
-3. Clonner ce projet
+3. Clonner le projet
     ```
     git clone https://github.com/axeleroy/untoitpourcaramel.git
     ```
-3. Créer une tâche `cron` pour lancer ce script régulièrement (dans mon cas toutes les 2h)
+4. Créer les fichiers `parameters.json` et `trello.ini` comme indiqué plus haut
+5. Créer une tâche `cron` pour lancer ce script régulièrement (dans mon cas toutes les 2h)
     ```
     crontab -e
     ```
     ```
-    * */2 * * * python3 /home/pi/untoitpourcaramel/main.py
+    0 */2 * * * python3 /home/pi/untoitpourcaramel/main.py
     ```
