@@ -11,8 +11,8 @@ def search(parameters):
     payload = {
         'mrs': parameters['price'][0],  # Loyer min
         'mre': parameters['price'][1],  # Loyer max
-        'sqs': round(parameters['surface'][0]),  # Surface min
-        'sqe': round(parameters['surface'][1]),  # Surface max
+        'sqs': surface_value(parameters['surface'][0]),  # Surface min
+        'sqe': surface_value(parameters['surface'][1]),  # Surface max
         'ret': list(range(parameters['rooms'][0], parameters['rooms'][1] + 1)),  # Pièces
         'zipcode': ','.join(str(cp[1]) for cp in parameters['cities']),
         'city': ','.join(cp[0] for cp in parameters['cities']),
@@ -69,3 +69,40 @@ def search(parameters):
 
         if created:
             annonce.save()
+
+
+def surface_value(surface):
+    if surface == 0:
+        return 0
+    elif surface <= 20:
+        return 1
+    elif surface <= 25:
+        return 2
+    elif surface <= 30:
+        return 3
+    elif surface <= 35:
+        return 4
+    elif surface <= 40:
+        return 5
+    elif surface <= 50:
+        return 6
+    elif surface <= 60:
+        return 7
+    elif surface <= 70:
+        return 8
+    elif surface <= 80:
+        return 9
+    elif surface <= 90:
+        return 10
+    elif surface <= 100:
+        return 11
+    elif surface <= 110:
+        return 12
+    elif surface <= 120:
+        return 13
+    elif surface <= 150:
+        return 14
+    elif surface <= 300:
+        return 15
+    else:
+        return 16
