@@ -58,7 +58,7 @@ def search(parameters):
             created=datetime.strptime(_data.get('formatted_date'), "%d/%m/%Y &agrave; %Hh%M"),
             # Utilisation de BeautifulSoup pour retirer tout le formatage HTML
             title=BeautifulSoup(_data.get('subject'), "lxml").text,
-            description=BeautifulSoup(_data.get('body'), "lxml").text,
+            description=BeautifulSoup(_data.get('body').replace("<br />", "\n"), "lxml").text,
             price=_data.get('price'),
             surface=surface,
             rooms=rooms,
