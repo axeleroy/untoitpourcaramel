@@ -29,9 +29,13 @@ def search(parameters):
 
     request = requests.get("http://ws.seloger.com/search_4.0.xml", params=payload, headers=headers)
 
-    xmlRoot = ET.fromstring(request.text)
+    xml_root = ET.fromstring(request.text)
 
-    for annonceNode in xmlRoot.findall('annonces/annonce'):
+    for annonceNode in xml_root.findall('annonces/annonce'):
+        # Seconde requête pour obtenir la description de l'annonce
+        _payload = {'noAudiotel': 1, 'idAnnonce': annonceNode.find('idAnnonce').text}
+        _request = requests.get("http://ws.seloger.com/annonceDetail_4.0.xml", params=_payload, headers=headers)
+
         photos = list()
         for photo in annonceNode.find("photos"):
             photos.append(photo.find("stdUrl").text)
@@ -41,6 +45,7 @@ def search(parameters):
             site='seloger',
             # SeLoger peut ne pas fournir de titre pour une annonce T_T
             title="Appartement " + annonceNode.find('nbPiece').text + " pièces" if annonceNode.find('titre').text is None else annonceNode.find('titre').text,
+            description=ET.fromstring(_request.text).find("descriptif").text,
             created=datetime.strptime(annonceNode.find('dtCreation').text, '%Y-%m-%dT%H:%M:%S'),
             price=annonceNode.find('prix').text,
             charges=annonceNode.find('charges').text,
