@@ -12,6 +12,7 @@ class Annonce(Model):
     created = DateTimeField()
     title = CharField()
     description = TextField(null=True)
+    telephone = TextField(null=True)
     price = FloatField()
     charges = FloatField(null=True)
     surface = FloatField()

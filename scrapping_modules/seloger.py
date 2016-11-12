@@ -46,6 +46,7 @@ def search(parameters):
             # SeLoger peut ne pas fournir de titre pour une annonce T_T
             title="Appartement " + annonceNode.find('nbPiece').text + " pièces" if annonceNode.find('titre').text is None else annonceNode.find('titre').text,
             description=ET.fromstring(_request.text).find("descriptif").text,
+            telephone=ET.fromstring(_request.text).find("contact/telephone").text,
             created=datetime.strptime(annonceNode.find('dtCreation').text, '%Y-%m-%dT%H:%M:%S'),
             price=annonceNode.find('prix').text,
             charges=annonceNode.find('charges').text,

@@ -59,6 +59,7 @@ def search(parameters):
             # Utilisation de BeautifulSoup pour retirer tout le formatage HTML
             title=BeautifulSoup(_data.get('subject'), "lxml").text,
             description=BeautifulSoup(_data.get('body').replace("<br />", "\n"), "lxml").text,
+            telephone=_data.get("phone"),
             price=_data.get('price'),
             surface=surface,
             rooms=rooms,
