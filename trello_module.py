@@ -1,42 +1,45 @@
-import configparser
+import json
 from trello import TrelloClient
 from models import Annonce
 from ast import literal_eval
+
 
 def get_list():
     '''
     Retourne la liste Trello indiquée dans trello.ini
     '''
 
-    config = configparser.ConfigParser()
-    config.read('trello.ini')
+    # Chargement des paramètres et identifiants Trello depuis le fichier JSON
+    with open("trello.json") as parameters_data:
+        config = json.load(parameters_data)
 
     trello = TrelloClient(
-        api_key=config['TRELLO']['ApiKey'],
-        api_secret=config['TRELLO']['ApiSecret'],
-        token=config['TRELLO']['Token'],
-        token_secret=config['TRELLO']['TokenSecret']
+        api_key=config['ApiKey'],
+        api_secret=config['ApiSecret'],
+        token=config['Token'],
+        token_secret=config['TokenSecret']
     )
 
     for b in trello.list_boards():
-        if b.name == config['TRELLO']['BoardName']:
+        if b.name == config['BoardName']:
             board = b
             break
 
     if not board:
-        print("Board " + config['TRELLO']['BoardName'] + " not found.")
+        print("Board " + config['BoardName'] + " not found.")
         exit()
 
     for l in board.all_lists():
-        if l.name == config['TRELLO']['ListName']:
+        if l.name == config['ListName']:
             list = l
             break
 
     if not list:
-        print("List " + config['TRELLO']['ListName'] + " not found on board " + config['TRELLO']['BoardName'] + ".")
+        print("List " + config['ListName'] + " not found on board " + config['BoardName'] + ".")
         exit()
 
     return list
+
 
 def post():
     '''

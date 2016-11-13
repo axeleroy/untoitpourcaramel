@@ -1,5 +1,5 @@
 database.sqlite
-trello.ini
+trello.json
 parameters.json
 __pycache__/
 scrapping_modules/__pycache__/

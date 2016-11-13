@@ -7,6 +7,7 @@ qui récupère les annonces immoblières de SeLoger et Leboncoin pour les aggré
 * [peewee](http://docs.peewee-orm.com/en/latest/)
 * [Requests](https://requests.readthedocs.io/en/master/)
 * [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [lxml](http://lxml.de/index.html)
 * [py-trello](https://pypi.python.org/pypi/py-trello/0.6.1) 
     (et [ses dépendances](https://github.com/sarumont/py-trello/blob/master/requirements.txt))
 
@@ -45,16 +46,17 @@ dans le dossier `sample-requests` pour votre analyse (et pour tirer partie des p
 
 ## Paramétrer \#UnToitPourCaramel pour ses besoins
 ### Authentification Trello
-Avant de commencer à utiliser \#UnToitPourCaramel, il vous faut créer le fichier `trello.ini` qui contiendra vos
+Avant de commencer à utiliser \#UnToitPourCaramel, il vous faut créer le fichier `trello.json` qui contiendra vos
 jetons pour Trello ainsi que le nom de votre tableau et de votre liste :
-```
-[TRELLO]
-ApiKey=your-key
-ApiSecret=your-secret
-Token=your-oauth-token-key
-TokenSecret=your-oauth-token-secret
-BoardName=Recherche appartement
-ListName=Nouveaux appartements
+```json
+{
+  "ApiKey": "you-key",
+  "ApiSecret": "your-secret",
+  "Token": "your-oauth-token-key",
+  "TokenSecret": "your-oauth-token-secret",
+  "BoardName": "Recherche appartement",
+  "ListName": "Nouveaux appartements"
+}
 ```
 `ApiKey` et `ApiSecret` sont [à obtenir ici](https://trello.com/1/appKey/generate) tandis que `Token`
 et `Token Secret` sont à générer avec l'utilitaire `util.py` de `py-trello` :
@@ -139,7 +141,7 @@ _Testé sur un Raspberry Pi sous Raspbian Jessie._
     ```
     git clone https://github.com/axeleroy/untoitpourcaramel.git
     ```
-4. Créer les fichiers `parameters.json` et `trello.ini` comme indiqué plus haut
+4. Créer les fichiers `parameters.json` et `trello.json` comme indiqué plus haut
 5. Créer une tâche `cron` pour lancer ce script régulièrement (dans mon cas toutes les 2h)
     ```
     crontab -e
