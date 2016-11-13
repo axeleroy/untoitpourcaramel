@@ -13,17 +13,13 @@ def search(parameters):
         'mre': parameters['price'][1],  # Loyer max
         'sqs': surface_value(parameters['surface'][0]),  # Surface min
         'sqe': surface_value(parameters['surface'][1]),  # Surface max
-        'ret': list(range(parameters['rooms'][0], parameters['rooms'][1] + 1)),  # Pièces
+        'ros': parameters['rooms'][0],  # Pièces min
+        'roe': parameters['rooms'][1],  # Pièces max
         'zipcode': ','.join(str(cp[1]) for cp in parameters['cities']),
-        'city': ','.join(cp[0] for cp in parameters['cities']),
-
-        'c': '10',  # Locations
-        # ¯\_(ツ)_/¯
-        'ca': '12_s',
-        'w': '1',
-        'f': 'a',
-        'sp': '0',
+        'city': ','.join(cp[0] for cp in parameters['cities'])
     }
+    # Insertion des paramètres propres à LeBonCoin
+    payload.update(parameters['leboncoin'])
 
     header = {'User-Agent': 'fr.leboncoin.android , Sony D5803 , 6.0.1',
               'Content-Type': 'application/x-www-form-urlencoded',

@@ -67,36 +67,62 @@ De même que les jetons Trello, les paramètres de recherce communs à tous les 
 `parameters.json` qu'il faut créer avant d'utiliser le programme :
 ```json
 {
-    "cities": 
+    "cities":
     [
         ["Nanterre", 92000, 920050],
-        ["Saint-Cloud", 92210, 920064],
         ["Rueil-Malmaison", 92500, 920063]
     ],
-    "price": [200, 950],
-    "surface": [25, 70],
+    "price": [200, 900],
+    "surface": [30, 70],
     "rooms": [2, 5],
-    "bedrooms": 1
-}
-```
+    "bedrooms": 1,
 
-À noter que la troisième valeur de chaque ville est le code INSEE utilisé par SeLoger.
+    "leboncoin": {
+      "c": 10,
+      "ret": [1, 2],
+      "q": "terasse"
+    },
 
-Ces paramètres sont récupérés et passés aux modules de scrapping situés dans `scrapping_modules` et utilisés dans le dictionnaire
-nommé `payload` qui contient les paramètres passés à l'API. Vous pouvez y ajouter les paramètres propres à chaque
-service comme tel (ici `seloger.py`) :
-```python
-payload = {
-    'px_loyermin': parameters['price'][0],
-    
-    # [...]
-    
-    # Paramètres propres à se loger
-    'idtt': 1,  # 1 : location, 2 : vente
-    'idtypebien': '1,2',  # Appartement & Maison / Villa,
-    'si_terrasse': 1
+    "seloger": {
+      "idtt": 1,
+      "idtypebien": "1,2",
+      "getDtCreationMax": 1
+    }
 }
+
 ```
+Les paramètres sont donc :
+ * `cities ` contient les villes, avec leur nom, code postal puis le code INSEE utilisé par SeLoger,
+ * `price`, `surface` et `rooms` sont donc respectivement le prix, la surface et le nombre de pièces avec les bornes
+ minimales et maximales,
+ * `bedrooms` indique le nombre de chambres que l'on recherche, 
+ * `leboncoin` contient les paramètres propres à LeBonCoin :
+   * `c` représente la catégorie des annonces : 
+     * `9` pour les ventes immobilières, 
+     * `10` pour les locations,
+     * `11` pour les collocations. 
+   * `ret` représente le type de bien : _(optionnel)_
+     * `1` pour les maisons,
+     * `2` pour les appartements,
+     * `3` pour les terrains,
+     * `4` pour les parkings,
+     * `5` pour les autres.
+   * `q` représente le contenu du champ de recherche. _(optionnel)_
+ * `seloger` contient les paramètres propres à SeLoger :
+   * `idtt` représente la catégorie des annonces : 
+     * `1` pour les locations,
+     * `2` pour les ventes.
+   * `idtypebien` représente le type de bien : _(optionnel)_
+     * `1` pour les appartements,
+     * `2` pour les maisons et villas,
+     * `3` pour les parkings et boxs,
+     * `4` pour les terrains,
+     * `6` pour les boutiques,
+     * `7` pour les locaux,
+     * `8` pour les bureaux,
+     * `9` pour les lofts et ateliers.
+   * `getDtCreationMax=1` est requis par l'API.
+   
 
 ## Déploiement sur un Raspberry Pi
 _Testé sur un Raspberry Pi sous Raspbian Jessie._

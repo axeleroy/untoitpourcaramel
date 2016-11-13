@@ -16,14 +16,10 @@ def search(parameters):
         'nbpieces': list(range(parameters['rooms'][0], parameters['rooms'][1] + 1)),
         # Si parameters['bedrooms'] = 2 => "1,2"
         'nb_chambres': list(range(1, parameters['bedrooms'] + 1)),
-        'ci': [int(cp[2]) for cp in parameters['cities']],
-
-        # Paramètres propres à se loger
-        'idtt': 1,  # 1 : location, 2 : vente
-        'idtypebien': '1,2',  # Appartement & Maison / Villa,
-        # 'si_terrasse': 1,
-        'getDtCreationMax': 1  # ¯\_(ツ)_/¯
+        'ci': [int(cp[2]) for cp in parameters['cities']]
     }
+    # Insertion des paramètres propres à LeBonCoin
+    payload.update(parameters['seloger'])
 
     headers = {'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; D5803 Build/MOB30M.Z1)'}
 
