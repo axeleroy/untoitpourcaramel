@@ -4,7 +4,7 @@ from models import Annonce
 from ast import literal_eval
 
 
-def get_list():
+def get_board():
     '''
     Retourne la liste Trello indiquée dans trello.ini
     '''
@@ -22,32 +22,28 @@ def get_list():
 
     for b in trello.list_boards():
         if b.name == config['BoardName']:
-            board = b
-            break
+            return b
 
-    if not board:
-        print("Board " + config['BoardName'] + " not found.")
-        exit()
+    print("Board " + config['BoardName'] + " not found.")
+    exit()
+
+
+def get_list(site):
+    board = get_board()
 
     for l in board.all_lists():
-        if l.name == config['ListName']:
-            list = l
-            break
+        if l.name == site:
+            return l
 
-    if not list:
-        print("List " + config['ListName'] + " not found on board " + config['BoardName'] + ".")
-        exit()
-
-    return list
-
+    # Liste pas trouvée, on la crée
+    return board.add_list(site)
 
 def post():
     '''
     Poste les annonces sur Trello
     '''
 
-    _list = get_list()
-    for annonce in Annonce.select().where(Annonce.posted2trello == False):
+    for annonce in Annonce.select().where(Annonce.posted2trello == False).order_by(Annonce.site.asc()):
         title = "%s de %sm² à %s @ %s€" % (annonce.title, annonce.surface, annonce.city, annonce.price)
         description = "Créé le : %s\n\n" \
                       "%s pièces, %s chambre(s)\n" \
@@ -57,7 +53,7 @@ def post():
                       (annonce.created.strftime("%a %d %b %Y %H:%M:%S"), annonce.rooms, annonce.bedrooms, annonce.charges,
                        annonce.telephone, annonce.description.replace("\n", "\n>"))
 
-        card = _list.add_card(title, desc=description)
+        card = get_list(annonce.site).add_card(title, desc=description)
 
         # On s'assure que ce soit bien un tableau
         if annonce.picture is not None and annonce.picture.startswith("["):
