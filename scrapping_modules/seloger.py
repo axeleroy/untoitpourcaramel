@@ -38,7 +38,7 @@ def search(parameters):
 
         annonce, created = Annonce.create_or_get(
             id='seloger-' + annonceNode.find('idAnnonce').text,
-            site='seloger',
+            site='SeLoger',
             # SeLoger peut ne pas fournir de titre pour une annonce T_T
             title="Appartement " + annonceNode.find('nbPiece').text + " pièces" if annonceNode.find('titre').text is None else annonceNode.find('titre').text,
             description=ET.fromstring(_request.text).find("descriptif").text,
