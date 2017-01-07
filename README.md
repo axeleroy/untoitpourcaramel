@@ -81,6 +81,7 @@ De même que les jetons Trello, les paramètres de recherce communs à tous les 
 
     "leboncoin": {
       "c": 10,
+      "f", "c",
       "ret": [1, 2],
       "q": "terasse"
     },
@@ -103,12 +104,15 @@ Les paramètres sont donc :
      * `9` pour les ventes immobilières, 
      * `10` pour les locations,
      * `11` pour les collocations. 
-   * `ret` représente le type de bien : _(optionnel)_
+   * `ret` permet de filtrer le type de bien : _(optionnel)_
      * `1` pour les maisons,
      * `2` pour les appartements,
      * `3` pour les terrains,
      * `4` pour les parkings,
      * `5` pour les autres.
+   * `f` permet de filtrer le type d'annonceur : _(optionnel)_
+     * `c` pour les particuliers
+     * `p` pour les professionnels
    * `q` représente le contenu du champ de recherche. _(optionnel)_
  * `seloger` contient les paramètres propres à SeLoger :
    * `idtt` représente la catégorie des annonces : 
