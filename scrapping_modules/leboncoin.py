@@ -27,16 +27,16 @@ def search(parameters):
               'Accept-Encoding': 'gzip'
               }
     # Token de l'application Android Leboncoin
-    body = "app_id=leboncoin_android&key=d2c84cdd525dddd7cbcc0d0a86609982c2c59e22eb01ee4202245b7b187f49f1546e5f027d48b8d130d9aa918b29e991c029f732f4f8930fc56dbea67c5118ce"
+    token = "app_id=leboncoin_android&key=d2c84cdd525dddd7cbcc0d0a86609982c2c59e22eb01ee4202245b7b187f49f1546e5f027d48b8d130d9aa918b29e991c029f732f4f8930fc56dbea67c5118ce"
 
     request = requests.post("https://mobile.leboncoin.fr/templates/api/list.json", params=payload, headers=header,
-                            data=body)
+                            data=token)
     data = request.json()
 
     for ad in data['ads']:
         _payload = {'ad_id': ad['list_id']}
         _request = requests.post("https://mobile.leboncoin.fr/templates/api/view.json", params=_payload, headers=header,
-                                 data=body)
+                                 data=token)
 
         _data = _request.json()
 
@@ -50,7 +50,7 @@ def search(parameters):
 
         annonce, created = Annonce.create_or_get(
             id='lbc-' + _data.get('list_id'),
-            site='lbc',
+            site='LBC ' + "Pro" if ad['company_ad'] is 1 else "Particulier",
             created=datetime.strptime(_data.get('formatted_date'), "%d/%m/%Y &agrave; %Hh%M"),
             # Utilisation de BeautifulSoup pour retirer tout le formatage HTML
             title=BeautifulSoup(_data.get('subject'), "lxml").text,
