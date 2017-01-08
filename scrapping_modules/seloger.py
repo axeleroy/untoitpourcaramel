@@ -14,8 +14,8 @@ def search(parameters):
         'surfacemax': parameters['surface'][1],
         # Si parameters['rooms'] = (2, 4) => "2,3,4"
         'nbpieces': list(range(parameters['rooms'][0], parameters['rooms'][1] + 1)),
-        # Si parameters['bedrooms'] = 2 => "0,1,2"
-        'nb_chambres': list(range(0, parameters['bedrooms'] + 1)),
+        # Si parameters['bedrooms'] = (2, 4) => "2,3,4"
+        'nb_chambres': list(range(parameters['bedrooms'][0], parameters['bedrooms'][1] + 1)),
         'ci': [int(cp[2]) for cp in parameters['cities']]
     }
     # Insertion des paramètres propres à LeBonCoin

@@ -77,7 +77,7 @@ De même que les jetons Trello, les paramètres de recherce communs à tous les 
     "price": [200, 900],
     "surface": [30, 70],
     "rooms": [2, 5],
-    "bedrooms": 1,
+    "bedrooms": [1, 2],
 
     "leboncoin": {
       "c": 10,
@@ -96,9 +96,8 @@ De même que les jetons Trello, les paramètres de recherce communs à tous les 
 ```
 Les paramètres sont donc :
  * `cities ` contient les villes, avec leur nom, code postal puis le code INSEE utilisé par SeLoger,
- * `price`, `surface` et `rooms` sont donc respectivement le prix, la surface et le nombre de pièces avec les bornes
- minimales et maximales,
- * `bedrooms` indique le nombre de chambres que l'on recherche, 
+ * `price`, `surface`, `rooms` et `bedrooms`  sont donc respectivement le prix, la surface, le nombre de pièces et le 
+ nombre de chambres avec les bornes minimales et maximales,
  * `leboncoin` contient les paramètres propres à LeBonCoin :
    * `c` représente la catégorie des annonces : 
      * `9` pour les ventes immobilières, 
