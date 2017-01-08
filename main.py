@@ -5,6 +5,7 @@ import models
 import trello_module
 from scrapping_modules import seloger
 from scrapping_modules import leboncoin
+from scrapping_modules import pap
 
 os.chdir(os.path.dirname(sys.argv[0]))
 
@@ -17,6 +18,7 @@ with open("parameters.json") as parameters_data:
 # Recherche et insertion en base
 seloger.search(parameters)
 leboncoin.search(parameters)
+pap.search(parameters)
 
 # Envoi des annonces sur Trello
 trello_module.post()

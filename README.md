@@ -55,7 +55,6 @@ jetons pour Trello ainsi que le nom de votre tableau et de votre liste :
   "Token": "your-oauth-token-key",
   "TokenSecret": "your-oauth-token-secret",
   "BoardName": "Recherche appartement",
-  "ListName": "Nouveaux appartements"
 }
 ```
 `ApiKey` et `ApiSecret` sont [à obtenir ici](https://trello.com/1/appKey/generate) tandis que `Token`
@@ -90,6 +89,12 @@ De même que les jetons Trello, les paramètres de recherce communs à tous les 
       "idtt": 1,
       "idtypebien": "1,2",
       "getDtCreationMax": 1
+    },
+    
+    "pap": {
+        "recherche[produit]": "location",
+        "recherche[typesbien][]": "appartement",
+        "order": "date-desc"
     }
 }
 
@@ -127,6 +132,9 @@ Les paramètres sont donc :
      * `8` pour les bureaux,
      * `9` pour les lofts et ateliers.
    * `getDtCreationMax=1` est requis par l'API.
+ * `pap` contient les paramètres propres à PAP :
+   * `recherche[produit]` permet de préciser si l'on cherche une `location` ou une `vente`,
+   * `recherche[typesbien][]` permet de préciser le type de bien cherché.
    
 
 ## Déploiement sur un Raspberry Pi
