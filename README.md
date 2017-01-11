@@ -80,7 +80,7 @@ De même que les jetons Trello, les paramètres de recherce communs à tous les 
 
     "leboncoin": {
       "c": 10,
-      "f", "c",
+      "f", "p",
       "ret": [1, 2],
       "q": "terasse"
     },
@@ -115,8 +115,8 @@ Les paramètres sont donc :
      * `4` pour les parkings,
      * `5` pour les autres.
    * `f` permet de filtrer le type d'annonceur : _(optionnel)_
-     * `c` pour les particuliers
-     * `p` pour les professionnels
+     * `p` pour les particuliers
+     * `c` pour les professionnels
    * `q` représente le contenu du champ de recherche. _(optionnel)_
  * `seloger` contient les paramètres propres à SeLoger :
    * `idtt` représente la catégorie des annonces : 

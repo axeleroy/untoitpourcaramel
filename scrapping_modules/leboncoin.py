@@ -50,7 +50,7 @@ def search(parameters):
 
         annonce, created = Annonce.create_or_get(
             id='lbc-' + _data.get('list_id'),
-            site="Leboncoin Pro" if ad['company_ad'] is 1 else "Leboncoin Particulier",
+            site="Leboncoin Pro" if ad['company_ad'] == 1 else "Leboncoin Particulier",
             created=datetime.strptime(_data.get('formatted_date'), "%d/%m/%Y &agrave; %Hh%M"),
             # Utilisation de BeautifulSoup pour retirer tout le formatage HTML
             title=BeautifulSoup(_data.get('subject'), "lxml").text,
