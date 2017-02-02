@@ -3,6 +3,7 @@ import sys
 import json
 import models
 import trello_module
+from scrapping_modules import logic_immo
 from scrapping_modules import seloger
 from scrapping_modules import leboncoin
 from scrapping_modules import pap
@@ -16,6 +17,7 @@ with open("parameters.json") as parameters_data:
     parameters = json.load(parameters_data)
 
 # Recherche et insertion en base
+logic_immo.search(parameters)
 seloger.search(parameters)
 leboncoin.search(parameters)
 pap.search(parameters)
