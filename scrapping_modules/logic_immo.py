@@ -46,7 +46,8 @@ def search(parameters):
             bedrooms=ad['properties'].get('bedrooms'),
             city=ad['location']['city']['name'],
             link=ad['info']['link'],
-            picture=ad.get('pictures')
+            picture=[picture.replace("[WIDTH]", "1440").replace("[HEIGHT]", "956").replace("[SCALE]", "3.5")
+                     for picture in ad.get('pictures')]
         )
 
         if created:
