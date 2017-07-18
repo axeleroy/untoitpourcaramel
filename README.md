@@ -76,7 +76,7 @@ De même que les jetons Trello, les paramètres de recherce communs à tous les 
 
     "leboncoin": {
       "c": 10,
-      "f", "p",
+      "f": "p",
       "ret": [1, 2],
       "q": "terasse"
     },
@@ -118,6 +118,7 @@ Les paramètres sont donc :
    * `f` permet de filtrer le type d'annonceur : _(optionnel)_
      * `p` pour les particuliers
      * `c` pour les professionnels
+   * `furn` permet de choisir si un bien est meublé `1` ou non `2`. _(optionnel)_
    * `q` représente le contenu du champ de recherche. _(optionnel)_
  * `seloger` contient les paramètres propres à SeLoger :
    * `idtt` représente la catégorie des annonces : 
@@ -136,6 +137,15 @@ Les paramètres sont donc :
  * `pap` contient les paramètres propres à PAP :
    * `recherche[produit]` permet de préciser si l'on cherche une `location` ou une `vente`,
    * `recherche[typesbien][]` permet de préciser le type de bien cherché.
+   * `recherche[tags][]` permet de renseigner des critères avancés : _(optionnel)_
+     * `meuble` et `vide`
+     * `longue-duree` et `courte-duree`
+     * `duplex-triplex`
+     * `plain-pied` et `dernier-etage`
+     * `piscine`
+     * `balcon-terrasse`
+     * `garages-parking`
+     * `acces-handicape`
  * `logic-immo` contient les paramètres propres à Logic Immo :
    * `domain` permet de préciser si l'on cherche un bien en location (`rentals`) ou en vente (`sales`)
    
