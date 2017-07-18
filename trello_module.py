@@ -48,12 +48,13 @@ def post():
         description = "Créé le : %s\n\n" \
                       "%s pièces, %s chambre(s)\n" \
                       "Charges : %s\n" \
-                      "Tel : %s\n\n" \
-                      ">%s" % \
+                      "Tel : %s\n\n" % \
                       (annonce.created.strftime("%a %d %b %Y %H:%M:%S"), annonce.rooms, annonce.bedrooms, annonce.charges,
-                       annonce.telephone, annonce.description.replace("\n", "\n>"))
+                       annonce.telephone)
+        if annonce.description is not None:
+            description += ">%s" % annonce.description.replace("\n", "\n>")
 
-        card = get_list(annonce.site).add_card(title, desc=description)
+            card = get_list(annonce.site).add_card(title, desc=description)
 
         # On s'assure que ce soit bien un tableau
         if annonce.picture is not None and annonce.picture.startswith("["):
