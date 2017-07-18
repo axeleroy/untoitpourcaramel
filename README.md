@@ -50,13 +50,13 @@ jetons pour Trello ainsi que le nom de votre tableau et de votre liste :
   "ApiSecret": "your-secret",
   "Token": "your-oauth-token-key",
   "TokenSecret": "your-oauth-token-secret",
-  "BoardName": "Recherche appartement",
+  "BoardName": "Recherche appartement"
 }
 ```
 `ApiKey` et `ApiSecret` sont [à obtenir ici](https://trello.com/1/appKey/generate) tandis que `Token`
 et `Token Secret` sont à générer avec l'utilitaire `util.py` de `py-trello` :
 ```
-TRELLO_API_KEY=ApiKey TRELLO_API_SECRET=ApiSecret python3 /path/to/py-trello/folder/util.py
+TRELLO_API_KEY=ApiKey TRELLO_API_SECRET=ApiSecret python3 `python3 -c "import site; print(site.getsitepackages()[0])"`/trello/util.py
 ```
 
 ### Paramètres de recherche
