@@ -54,7 +54,7 @@ def post():
         if annonce.description is not None:
             description += ">%s" % annonce.description.replace("\n", "\n>")
 
-            card = get_list(annonce.site).add_card(title, desc=description)
+        card = get_list(annonce.site).add_card(title, desc=description)
 
         # On s'assure que ce soit bien un tableau
         if annonce.picture is not None and annonce.picture.startswith("["):
