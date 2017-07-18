@@ -13,7 +13,7 @@ os.chdir(os.path.dirname(sys.argv[0]))
 models.create_tables()
 
 # Chargement des paramètres de recherche depuis le fichier JSON
-with open("parameters.json") as parameters_data:
+with open("parameters.json", enconding='utf-8') as parameters_data:
     parameters = json.load(parameters_data)
 
 # Recherche et insertion en base
