@@ -46,22 +46,23 @@ def search(parameters):
             if param['id'] == 'rooms':
                 rooms = param['value']
             if param['id'] == 'square':
-                surface = param['value'].replace(" m&sup2;", "")
+                surface = param['value'].replace(" m²", "")
 
-        annonce, created = Annonce.create_or_get(
+        annonce, created = Annonce.get_or_create(
             id='lbc-' + _data.get('list_id'),
-            site="Leboncoin Pro" if ad['company_ad'] == 1 else "Leboncoin Particulier",
-            created=datetime.strptime(_data.get('formatted_date'), "%d/%m/%Y &agrave; %Hh%M"),
-            # Utilisation de BeautifulSoup pour retirer tout le formatage HTML
-            title=BeautifulSoup(_data.get('subject'), "lxml").text,
-            description=BeautifulSoup(_data.get('body').replace("<br />", "\n"), "lxml").text,
-            telephone=_data.get("phone"),
-            price=_data.get('price'),
-            surface=surface,
-            rooms=rooms,
-            city=_data.get('zipcode'),
-            link="https://www.leboncoin.fr/locations/%s.htm?ca=12_s" % _data.get('list_id'),
-            picture=_data.get('images')
+            defaults={
+                'site': "Leboncoin Pro" if ad['company_ad'] == 1 else "Leboncoin Particulier",
+                'created': datetime.strptime(_data.get('formatted_date'), "%d/%m/%Y &agrave; %Hh%M"),
+                'title': BeautifulSoup(_data.get('subject'), "lxml").text,
+                'description': BeautifulSoup(_data.get('body').replace("<br />", "\n"), "lxml").text,
+                'telephone': _data.get("phone"),
+                'price': _data.get('price').replace(" ", ""),
+                'surface': surface,
+                'rooms': rooms,
+                'city': _data.get('zipcode'),
+                'link': "https://www.leboncoin.fr/locations/%s.htm?ca=12_s" % _data.get('list_id'),
+                'picture': _data.get('images')
+            }
         )
 
         if created:
