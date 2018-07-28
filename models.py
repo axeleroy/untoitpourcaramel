@@ -29,5 +29,5 @@ class Annonce(Model):
 
 
 def create_tables():
-    db.connect()
-    db.create_table(Annonce, safe=True)
+    with db:
+        db.create_tables([Annonce])
