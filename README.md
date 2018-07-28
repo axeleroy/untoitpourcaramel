@@ -64,6 +64,7 @@ De même que les jetons Trello, les paramètres de recherce communs à tous les 
 `parameters.json` qu'il faut créer avant d'utiliser le programme :
 ```json
 {
+    "ad-providers": ["leboncoin", "logic-immo"],
     "cities":
     [
         ["Nanterre", 92000, 920050],
@@ -101,6 +102,11 @@ De même que les jetons Trello, les paramètres de recherce communs à tous les 
 
 ```
 Les paramètres sont donc :
+ * `ad-providers` spécifie les fournisseurs d'annonces selectionnées : 
+    * logic_immo : www.logic-immo.com
+    * seloger : www.seloger.com
+    * leboncoin : www.leboncoin.com
+    * pap : www.pap.com
  * `cities ` contient les villes, avec leur nom, code postal puis le code INSEE utilisé par SeLoger,
  * `price`, `surface`, `rooms` et `bedrooms`  sont donc respectivement le prix, la surface, le nombre de pièces et le 
  nombre de chambres avec les bornes minimales et maximales,
