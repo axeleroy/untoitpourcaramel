@@ -42,6 +42,7 @@ def post():
     '''
     Poste les annonces sur Trello
     '''
+    posted = 0
 
     for annonce in Annonce.select().where(Annonce.posted2trello == False).order_by(Annonce.site.asc()):
         title = "%s de %sm² à %s @ %s€" % (annonce.title, annonce.surface, annonce.city, annonce.price)
@@ -69,3 +70,6 @@ def post():
 
         annonce.posted2trello = True
         annonce.save()
+        posted += 1
+    return posted
+
