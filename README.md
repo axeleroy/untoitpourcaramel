@@ -106,7 +106,7 @@ Les paramètres sont donc :
     * logic_immo : www.logic-immo.com
     * seloger : www.seloger.com
     * leboncoin : www.leboncoin.com
-    * pap : www.pap.com
+    * pap : www.pap.fr
  * `cities ` contient les villes, avec leur nom, code postal puis le code INSEE utilisé par SeLoger,
  * `price`, `surface`, `rooms` et `bedrooms`  sont donc respectivement le prix, la surface, le nombre de pièces et le 
  nombre de chambres avec les bornes minimales et maximales,
